@@ -47,6 +47,7 @@ Focused on services developers can integrate today.
 - **[InVideo AI](https://invideo.io)** – Turns text prompts into full videos using Sora 2 and Veo 3.1 as underlying models. OpenAI's first official Sora 2 integration partner. 50M+ users.
 - **[Fliki](https://fliki.ai)** – Text-to-video and text-to-speech platform. Enterprise API with 2,500+ voices in 80+ languages. [Docs](https://developer.fliki.ai)
 - **[Morph Studio](https://www.morphstudio.com)** – No-code AI video studio aggregating Wan 2.6, Kling 2.6 Pro, Seedance, Sora 2, Veo 3 into a single canvas with storyboarding and style transfer.
+- **[PVID](http://pvid.app/)** – Free AI video generator aggregating Kling 3.0, Sora 2, Veo 3.1. Image-to-video, text-to-video, video-to-video. 100 free credits for new users.
 
 ## Real-Time and Interactive Video
 
