@@ -2,10 +2,16 @@
 
 A curated list of AI video generation APIs, SDKs, and production-ready tools. Focused on services developers can integrate today.
 
+Maintained by [Backblaze](https://www.backblaze.com).
+
 ### Related Lists
 
 - [Awesome Image Generation](https://github.com/backblaze-labs/awesome-image-generation)
 - [Awesome Audio Generation](https://github.com/backblaze-labs/awesome-audio-generation)
+- [Awesome ML Data Pipelines](https://github.com/backblaze-labs/awesome-ml-data-pipelines)
+- [Awesome Multimodal Data](https://github.com/backblaze-labs/awesome-multimodal-data)
+- [Awesome Agent Infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure)
+- [Awesome Physical AI](https://github.com/backblaze-labs/awesome-physical-ai)
 
 ## Contents
 
@@ -29,9 +35,11 @@ A curated list of AI video generation APIs, SDKs, and production-ready tools. Fo
 - **[Stability AI (SVD)](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt)** – Image-to-video via Stable Video Diffusion. Hosted API deprecated July 2025; open weights available for self-hosting. [Docs](https://github.com/Stability-AI/generative-models)
 - **[Fliki](https://fliki.ai)** – Text-to-video and text-to-speech platform. Enterprise API with 2,500+ voices in 80+ languages. [Docs](https://developer.fliki.ai)
 - **[Google Veo 2 / Veo 3](https://deepmind.google/technologies/veo/)** – Google's video generation models via Vertex AI and Gemini API. Veo 2 is GA; Veo 3 in paid preview. [Docs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/model-reference/veo-video-generation) | SDK: Google Cloud Python
+- **[HappyHorse-1.0](https://happyhorse.app)** – Native 1080p text-to-video and image-to-video with integrated audio and lip-sync in one pass. Task-based REST with Bearer auth. [Docs](https://happyhorse.app/docs)
 - **[Higgsfield](https://higgsfield.ai)** – Cinematic video platform aggregating 15+ premium models (Sora 2, Kling 2.6, Veo 3.1, etc.) with camera simulation, character consistency, and lip-sync. 15M+ users.
 - **[InVideo AI](https://invideo.io)** – Turns text prompts into full videos using Sora 2 and Veo 3.1 as underlying models. OpenAI's first official Sora 2 integration partner. 50M+ users.
 - **[Kling AI](https://klingai.com)** – Text-to-video and image-to-video from Kuaishou. Up to 30s clips at 1080p/30fps. Async task-based API. Also on fal.ai. [Docs](https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview)
+- **[Krea](https://www.krea.ai/features/api)** – Unified API for 10+ video models (Veo 3/3.1, Sora 2, Kling 2.6, Wan 2.5, Hailuo 2.3, Runway Gen-4.5, Ray 2, Seedance Pro). Job-based with webhooks. OpenAPI spec, Python/Node/Go examples. [Docs](https://docs.krea.ai) | SDK: Python, Node, Go
 - **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** – High-quality text-to-video with character reference and style reference inputs. Ray 3 is the latest model. [Docs](https://docs.lumalabs.ai/docs/api) | SDK: [Python](https://github.com/lumalabs/lumaai-python), [JS](https://www.npmjs.com/package/lumaai)
 - **[Magic Hour](https://magichour.ai)** – Multi-modal AI video generation API. Text-to-video, image-to-video, style transfer, 4K upscaling. Scales to zero when idle. [Docs](https://docs.magichour.ai)
 - **[MiniMax / Hailuo](https://www.minimax.io)** – Hailuo 2.3 model. Text-to-video and image-to-video up to 1080p, 10s clips. [Docs](https://platform.minimax.io/docs/guides/video-generation) | SDK: [Python](https://pypi.org/project/minimax/), [Node](https://www.npmjs.com/package/minimax)
@@ -41,12 +49,14 @@ A curated list of AI video generation APIs, SDKs, and production-ready tools. Fo
 - **[Runway (Gen-4)](https://runwayml.com/api)** – Text-to-video and image-to-video with Gen-4 Turbo. Async task-based REST API with polling helpers. [Docs](https://docs.dev.runwayml.com) | SDK: [Python](https://pypi.org/project/runwayml/), [Node](https://github.com/runwayml/sdk-node)
 - **[Seedance 2.0 (ByteDance)](https://seed.bytedance.com/en/seedance2_0)** – Dual-Branch Diffusion Transformer for simultaneous video + audio generation. Up to 15s at 2K resolution. Available via Dreamina. [Docs](https://dreamina.capcut.com)
 - **[Vidu (Shengshu Technology)](https://www.shengshu.com/en/vidu)** – Now on Vidu Q3, the first long-form AI video model with native audio-video generation in a single output. Ranked
+- **[Wan 2.7 (Alibaba)](https://fal.ai/wan-2.7)** – Commercial successor to open-weight Wan 2.2. Native 1080p, 2–15s clips, first-and-last-frame control, up to 5 reference inputs, instruction-based video editing. Via DashScope and fal.ai at $0.10/sec. [Docs](https://help.aliyun.com/zh/model-studio/wanx-video-generation)
 - **[xAI Aurora / Grok Imagine](https://x.ai)** – Text-to-video and image-to-video using xAI's Aurora autoregressive MoE model. 6–15s clips at 720p with synchronized audio. [Docs](https://x.ai/news/grok-imagine-api)
 
 ## Real-Time and Interactive Video
 
 > Low-latency video transformation and interactive streaming platforms.
 
+- **[Krea Realtime 14B](https://github.com/krea-ai/realtime-video)** – Open-weight 14B autoregressive video model distilled from Wan 2.1 via Self-Forcing. ~11fps on a single B200, ~1s time-to-first-frame. WebSocket streaming server for mid-generation prompt edits. Research/non-commercial license. [Docs](https://huggingface.co/krea/krea-realtime-video)
 - **[Decart (Lucy 2)](https://decart.ai)** – Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour. [Docs](https://docs.platform.decart.ai/models/video/video-generation)
 - **[PixVerse](https://pixverse.ai)** – Text-to-video and image-to-video platform. PixVerse-R1 adds real-time interactive video at 720p HD with native audio. [Docs](https://docs.platform.pixverse.ai)
 
@@ -59,8 +69,10 @@ A curated list of AI video generation APIs, SDKs, and production-ready tools. Fo
 - **[D-ID](https://www.d-id.com/api/)** – Talking head video generation from text or audio. Express and Premium+ avatars, real-time WebRTC streaming. [Docs](https://docs.d-id.com/) | SDK: [Python](https://pypi.org/project/did-api/)
 - **[DeepBrain AI (AI Studios)](https://www.deepbrain.io)** – AI avatar video platform with REST API. Integrates AWS, Azure, ElevenLabs, IBM Watson, NVIDIA Riva. [Docs](https://docs.aistudios.com)
 - **[Elai.io](https://elai.io)** – AI video platform with streaming avatar API for interactive e-learning. Turns documents and scripts into avatar-presented videos. [Docs](https://elai.readme.io)
+- **[Hedra](https://www.hedra.com)** – Character-3 omnimodal talking-avatar API (image + text + audio in one pass). Long-form up to 10 min; LiveKit plugin for realtime; Node SDK, REST, Make.com integration. Omnia Fast Alpha adds full scene control. [Docs](https://docs.hedra.com) | SDK: Node
 - **[HeyGen](https://www.heygen.com)** – AI avatar video generation and real-time streaming avatars via WebRTC. Template-based workflows. [Docs](https://docs.heygen.com/) | SDK: [JS/TS](https://github.com/HeyGen-Official/StreamingAvatarSDK)
 - **[Hour One](https://hourone.ai)** – AI avatar video generator with 100+ presenters, voice cloning, 100+ languages. API + Zapier integration.
+- **[Sync.so](https://sync.so)** – Studio-grade lipsync and visual dubbing API. sync-3 flagship at native 4K with obstruction detection; lipsync-2-pro for diffusion super-res; react-1 for expressive emotion. Batch up to 500 videos per job. From $0.02/sec. [Docs](https://sync.so/docs/introduction) | SDK: [Python](https://pypi.org/project/syncsdk/), [TypeScript](https://www.npmjs.com/package/@sync.so/sdk)
 - **[Synthesia](https://www.synthesia.io)** – Avatar-based video creation from scripts. 140+ languages, custom avatars, template workflows. API in beta. [Docs](https://docs.synthesia.io/)
 - **[SynthLife](https://synthlife.co)** – Virtual AI influencer creation. Creates AI personas for TikTok, YouTube, Instagram with auto-scheduling and unlimited content generation.
 - **[Tavus](https://www.tavus.io)** – Conversational video AI. Phoenix-4 model does real-time gaussian-diffusion facial synthesis at ~600ms latency. Replica API clones face + voice. Integrates with Pipecat and LiveKit. [Docs](https://www.tavus.io/ai-video-api)
@@ -94,7 +106,10 @@ A curated list of AI video generation APIs, SDKs, and production-ready tools. Fo
 - **[MAGI-1 (Sand AI)](https://github.com/SandAI-org/MAGI-1)** – 24B param autoregressive denoising model. Generates video chunk-by-chunk (24 frames/chunk). T2V, I2V, V2V with streaming generation. Outperforms Wan 2.1 and HunyuanVideo on benchmarks. [Docs](https://huggingface.co/sand-ai/MAGI-1)
 - **[Step-Video-T2V (StepFun)](https://github.com/stepfun-ai/Step-Video-T2V)** – 300B parameter text-to-video model, up to 204 frames, bilingual (EN/ZH). [Docs](https://huggingface.co/stepfun-ai/stepvideo-t2v)
 - **[Pyramid Flow](https://github.com/jy0205/Pyramid-Flow)** – Efficient autoregressive video generation using pyramidal flow matching. Up to 10s at 768p, 24fps. ICLR 2025. [Docs](https://huggingface.co/rain1011/pyramid-flow-sd3)
+- **[LongCat-Video (Meituan)](https://github.com/meituan-longcat/LongCat-Video)** – 13.6B foundation model for text-to-video, image-to-video, and video continuation, tuned for efficient long-form 720p generation. FlashAttention-2 acceleration. Streamlit demo included. Avatar variant released Dec 2025. [Docs](https://huggingface.co/meituan-longcat)
+- **[OmniAvatar](https://github.com/Omni-Avatar/OmniAvatar)** – Audio-driven full-body avatar video generation with adaptive body animation. Pixel-wise multi-hierarchical audio embedding for diverse scenes. 1.3B and 14B variants (LoRA on Wan 2.1). Local inference via CLI. [Docs](https://omni-avatar.github.io)
 - **[Allegro (Rhymes AI)](https://github.com/rhymes-ai/Allegro)** – 2.8B param VideoDiT. 6s clips at 720p/15fps. Merged into diffusers. [Docs](https://huggingface.co/rhymes-ai/Allegro)
+- **[MOVA (OpenMOSS)](https://github.com/OpenMOSS/MOVA)** – Open foundation model for synchronized video+audio generation in a single inference pass. Asymmetric dual-tower architecture with cross-attention fusion. Multilingual lip-sync and environment-aware SFX. 360p and 720p weights. Diffusers integration planned. [Docs](https://huggingface.co/OpenMOSS-Team/MOVA-720p)
 - **[Meta Movie Gen](https://ai.meta.com/research/movie-gen/)** – 30B param T2V + 13B audio model. Personalized video from single reference photo, local/global editing, synchronized audio. Research paper public; weights not yet released. Rolling out inside Instagram Reels.
 - **[Mochi 1 (Genmo)](https://www.genmo.ai)** – 10B param T2V model with AsymmDiT architecture. 5.4s at 30fps. On fal.ai and Replicate.
 - **[NVIDIA Cosmos](https://github.com/nvidia-cosmos)** – World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs. [Docs](https://docs.nvidia.com/cosmos/latest/introduction.html)
@@ -138,6 +153,7 @@ A curated list of AI video generation APIs, SDKs, and production-ready tools. Fo
 > Benchmarks, leaderboards, and perceptual-quality metrics for video.
 
 - **[VBench / VBench-2.0](https://github.com/Vchitect/VBench)** – Comprehensive benchmark for video generative models. 16 fine-grained dimensions including subject consistency, motion smoothness, temporal flickering. VBench-2.0 adds Physics and Commonsense evaluation. [Docs](https://huggingface.co/spaces/Vchitect/VBench_Leaderboard)
+- **[Artificial Analysis Video Arena](https://artificialanalysis.ai/video/arena)** – Elo-based blind-comparison leaderboard for text-to-video and image-to-video models, with separate tracks for audio-enabled output. Embeddable leaderboard widgets and HuggingFace Space. [Docs](https://artificialanalysis.ai/video/leaderboard/text-to-video)
 
 ## Templates and Example Projects
 

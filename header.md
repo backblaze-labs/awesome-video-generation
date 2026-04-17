@@ -8,3 +8,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - [Awesome Image Generation](https://github.com/backblaze-labs/awesome-image-generation)
 - [Awesome Audio Generation](https://github.com/backblaze-labs/awesome-audio-generation)
+- [Awesome ML Data Pipelines](https://github.com/backblaze-labs/awesome-ml-data-pipelines)
+- [Awesome Multimodal Data](https://github.com/backblaze-labs/awesome-multimodal-data)
+- [Awesome Agent Infrastructure](https://github.com/backblaze-labs/awesome-agent-infrastructure)
+- [Awesome Physical AI](https://github.com/backblaze-labs/awesome-physical-ai)

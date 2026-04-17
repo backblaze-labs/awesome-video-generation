@@ -147,6 +147,34 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: HappyHorse-1.0
+  url: https://happyhorse.app
+  docs_url: https://happyhorse.app/docs
+  description: Native 1080p text-to-video and image-to-video with integrated audio and lip-sync in one pass. Task-based REST with Bearer auth. #1 on Artificial Analysis Video Arena (Elo 1333). Also on fal.ai.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-04-17
+
+- name: Krea
+  url: https://www.krea.ai/features/api
+  docs_url: https://docs.krea.ai
+  description: Unified API for 10+ video models (Veo 3/3.1, Sora 2, Kling 2.6, Wan 2.5, Hailuo 2.3, Runway Gen-4.5, Ray 2, Seedance Pro). Job-based with webhooks. OpenAPI spec, Python/Node/Go examples.
+  category: text-to-video-apis
+  sdks:
+    - {language: Python}
+    - {language: Node}
+    - {language: Go}
+  b2_integration: ""
+  last_verified: 2026-04-17
+
+- name: Wan 2.7 (Alibaba)
+  url: https://fal.ai/wan-2.7
+  docs_url: https://help.aliyun.com/zh/model-studio/wanx-video-generation
+  description: Commercial successor to open-weight Wan 2.2. Native 1080p, 2–15s clips, first-and-last-frame control, up to 5 reference inputs, instruction-based video editing. Via DashScope and fal.ai at $0.10/sec.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-04-17
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
@@ -164,6 +192,16 @@
   category: real-time-and-interactive-video
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Krea Realtime 14B
+  url: https://github.com/krea-ai/realtime-video
+  docs_url: https://huggingface.co/krea/krea-realtime-video
+  description: Open-weight 14B autoregressive video model distilled from Wan 2.1 via Self-Forcing. ~11fps on a single B200, ~1s time-to-first-frame. WebSocket streaming server for mid-generation prompt edits. Research/non-commercial license.
+  category: real-time-and-interactive-video
+  github: krea-ai/realtime-video
+  license: CC-BY-NC-SA-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Video Style Transfer and Motion ----------------
 
@@ -264,6 +302,27 @@
   category: avatar-and-talking-head-apis
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Hedra
+  url: https://www.hedra.com
+  docs_url: https://docs.hedra.com
+  description: Character-3 omnimodal talking-avatar API (image + text + audio in one pass). Long-form up to 10 min; LiveKit plugin for realtime; Node SDK, REST, Make.com integration. Omnia Fast Alpha adds full scene control.
+  category: avatar-and-talking-head-apis
+  sdks:
+    - {language: Node}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Sync.so
+  url: https://sync.so
+  docs_url: https://sync.so/docs/introduction
+  description: Studio-grade lipsync and visual dubbing API. sync-3 flagship at native 4K with obstruction detection; lipsync-2-pro for diffusion super-res; react-1 for expressive emotion. Batch up to 500 videos per job. From $0.02/sec.
+  category: avatar-and-talking-head-apis
+  sdks:
+    - {language: Python, url: https://pypi.org/project/syncsdk/}
+    - {language: TypeScript, url: https://www.npmjs.com/package/@sync.so/sdk}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Video Enhancement and Understanding ----------------
 
@@ -430,6 +489,36 @@
   category: open-source-models
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: MOVA (OpenMOSS)
+  url: https://github.com/OpenMOSS/MOVA
+  docs_url: https://huggingface.co/OpenMOSS-Team/MOVA-720p
+  description: Open foundation model for synchronized video+audio generation in a single inference pass. Asymmetric dual-tower architecture with cross-attention fusion. Multilingual lip-sync and environment-aware SFX. 360p and 720p weights. Diffusers integration planned.
+  category: open-source-models
+  github: OpenMOSS/MOVA
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: LongCat-Video (Meituan)
+  url: https://github.com/meituan-longcat/LongCat-Video
+  docs_url: https://huggingface.co/meituan-longcat
+  description: 13.6B foundation model for text-to-video, image-to-video, and video continuation, tuned for efficient long-form 720p generation. FlashAttention-2 acceleration. Streamlit demo included. Avatar variant released Dec 2025.
+  category: open-source-models
+  github: meituan-longcat/LongCat-Video
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: OmniAvatar
+  url: https://github.com/Omni-Avatar/OmniAvatar
+  docs_url: https://omni-avatar.github.io
+  description: Audio-driven full-body avatar video generation with adaptive body animation. Pixel-wise multi-hierarchical audio embedding for diverse scenes. 1.3B and 14B variants (LoRA on Wan 2.1). Local inference via CLI.
+  category: open-source-models
+  github: Omni-Avatar/OmniAvatar
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- SDKs and Developer Tooling ----------------
 
@@ -661,6 +750,14 @@
   github: Vchitect/VBench
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Artificial Analysis Video Arena
+  url: https://artificialanalysis.ai/video/arena
+  docs_url: https://artificialanalysis.ai/video/leaderboard/text-to-video
+  description: Elo-based blind-comparison leaderboard for text-to-video and image-to-video models, with separate tracks for audio-enabled output. Embeddable leaderboard widgets and HuggingFace Space.
+  category: evaluation-and-observability
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Templates and Example Projects ----------------
 
