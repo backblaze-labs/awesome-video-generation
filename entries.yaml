@@ -203,6 +203,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Causal Forcing
+  url: https://github.com/thu-ml/Causal-Forcing
+  docs_url: https://thu-ml.github.io/CausalForcing.github.io/
+  description: Autoregressive diffusion distillation for real-time interactive video generation on a single RTX 4090. Frame-wise and chunk-wise inference; builds on Wan 2.1. HuggingFace weights at zhuhz22/Causal-Forcing.
+  category: real-time-and-interactive-video
+  github: thu-ml/Causal-Forcing
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: HY-WorldPlay (Tencent)
+  url: https://github.com/Tencent-Hunyuan/HY-WorldPlay
+  docs_url: https://huggingface.co/tencent/HY-WorldPlay
+  description: Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5.
+  category: real-time-and-interactive-video
+  github: Tencent-Hunyuan/HY-WorldPlay
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Video Style Transfer and Motion ----------------
 
 - name: DomoAI
@@ -361,6 +380,16 @@
   description: C/C++ framework for AI video super-resolution and frame interpolation. Supports Real-ESRGAN, Real-CUGAN, and RIFE via Vulkan. GUI and CLI. Docker images on GHCR.
   category: video-enhancement-and-understanding
   github: k4yt3x/video2x
+  license: AGPL-3.0
+  tags: [enhancement]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: REAL Video Enhancer
+  url: https://github.com/TNTwise/REAL-Video-Enhancer
+  description: Cross-platform GUI/CLI for frame interpolation (RIFE), upscaling (Real-ESRGAN, Waifu2x), denoising, and decompression. TensorRT and NCNN backends. Windows/macOS/Linux; v2.4.1 released Jan 2026.
+  category: video-enhancement-and-understanding
+  github: TNTwise/REAL-Video-Enhancer
   license: AGPL-3.0
   tags: [enhancement]
   b2_integration: ""
@@ -648,6 +677,18 @@
     - {language: Python, url: https://github.com/shotstack/shotstack-sdk-python}
     - {language: PHP, url: https://github.com/shotstack/shotstack-sdk-php}
     - {language: Ruby, url: https://github.com/shotstack/shotstack-sdk-ruby}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: FastVideo
+  url: https://github.com/hao-ai-lab/FastVideo
+  docs_url: https://hao-ai-lab.github.io/FastVideo/
+  description: Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs.
+  category: sdks-and-developer-tooling
+  github: hao-ai-lab/FastVideo
+  license: Apache-2.0
+  sdks:
+    - {language: Python, url: https://pypi.org/project/fastvideo/}
   b2_integration: ""
   last_verified: 2026-04-18
 

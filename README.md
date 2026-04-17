@@ -57,7 +57,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 > Low-latency video transformation and interactive streaming platforms.
 
 - **[Krea Realtime 14B](https://github.com/krea-ai/realtime-video)** – Open-weight 14B autoregressive video model distilled from Wan 2.1 via Self-Forcing. ~11fps on a single B200, ~1s time-to-first-frame. WebSocket streaming server for mid-generation prompt edits. Research/non-commercial license. [Docs](https://huggingface.co/krea/krea-realtime-video)
+- **[Causal Forcing](https://github.com/thu-ml/Causal-Forcing)** – Autoregressive diffusion distillation for real-time interactive video generation on a single RTX 4090. Frame-wise and chunk-wise inference; builds on Wan 2.1. HuggingFace weights at zhuhz22/Causal-Forcing. [Docs](https://thu-ml.github.io/CausalForcing.github.io/)
 - **[Decart (Lucy 2)](https://decart.ai)** – Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour. [Docs](https://docs.platform.decart.ai/models/video/video-generation)
+- **[HY-WorldPlay (Tencent)](https://github.com/Tencent-Hunyuan/HY-WorldPlay)** – Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5. [Docs](https://huggingface.co/tencent/HY-WorldPlay)
 - **[PixVerse](https://pixverse.ai)** – Text-to-video and image-to-video platform. PixVerse-R1 adds real-time interactive video at 720p HD with native audio. [Docs](https://docs.platform.pixverse.ai)
 
 ## Avatar and Talking Head APIs
@@ -89,6 +91,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Upscaling, restoration, and multimodal understanding APIs for video.
 
+- **[REAL Video Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer)** – Cross-platform GUI/CLI for frame interpolation (RIFE), upscaling (Real-ESRGAN, Waifu2x), denoising, and decompression. TensorRT and NCNN backends. Windows/macOS/Linux; v2.4.1 released Jan 2026.
 - **[Topaz Video AI](https://www.topazlabs.com/topaz-video)** – AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA. [Docs](https://developer.topazlabs.com)
 - **[Twelve Labs](https://www.twelvelabs.io)** – Video understanding and intelligence API. Multimodal semantic search, analysis, and text generation from video content. [Docs](https://docs.twelvelabs.io)
 - **[Video2X](https://github.com/k4yt3x/video2x)** – C/C++ framework for AI video super-resolution and frame interpolation. Supports Real-ESRGAN, Real-CUGAN, and RIFE via Vulkan. GUI and CLI. Docker images on GHCR. [Docs](https://github.com/k4yt3x/video2x/wiki)
@@ -128,6 +131,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Replicate SDK](https://github.com/replicate/replicate-python)** – Python/JS client for 100+ hosted video models. Async, streaming, webhooks, fine-tuning. [Docs](https://replicate.com/docs/get-started/python) | SDK: Python (pip install replicate)
 - **[fal.ai SDK](https://github.com/fal-ai/fal-js)** – Serverless AI inference with Python, JS, and Swift SDKs. Hosts Kling, Veo, Pika, Wan, LTX, Luma, and more. [Docs](https://docs.fal.ai) | SDK: Python (pip install fal-client), Node (npm install @fal-ai/client)
 - **[Luma AI SDK](https://github.com/lumalabs/lumaai-python)** – Sync and async clients for all Dream Machine generation modes. [Docs](https://docs.lumalabs.ai/docs/javascript) | SDK: Python (pip install lumaai)
+- **[FastVideo](https://github.com/hao-ai-lab/FastVideo)** – Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs. [Docs](https://hao-ai-lab.github.io/FastVideo/) | SDK: [Python](https://pypi.org/project/fastvideo/)
 - **[HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK)** – TypeScript SDK for real-time WebRTC interactive avatar sessions. SDK: TypeScript (npm install @heygen/streaming-avatar)
 - **[Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/)** – Official Python and Node.js SDKs with type annotations, async support, and built-in polling. SDK: Python (pip install runwayml), Node (npm install @runwayml/sdk)
 - **[Shotstack](https://shotstack.io)** – Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs. [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/) | SDK: [Node](https://github.com/shotstack/shotstack-sdk-node), [Python](https://github.com/shotstack/shotstack-sdk-python), [PHP](https://github.com/shotstack/shotstack-sdk-php), [Ruby](https://github.com/shotstack/shotstack-sdk-ruby)

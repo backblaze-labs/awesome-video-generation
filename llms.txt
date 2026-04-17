@@ -43,8 +43,12 @@
 
 - [Krea Realtime 14B](https://github.com/krea-ai/realtime-video): Open-weight 14B autoregressive video model distilled from Wan 2.1 via Self-Forcing. ~11fps on a single B200, ~1s time-to-first-frame. WebSocket streaming server for mid-generation prompt edits. Research/non-commercial license.
   - docs: https://huggingface.co/krea/krea-realtime-video
+- [Causal Forcing](https://github.com/thu-ml/Causal-Forcing): Autoregressive diffusion distillation for real-time interactive video generation on a single RTX 4090. Frame-wise and chunk-wise inference; builds on Wan 2.1. HuggingFace weights at zhuhz22/Causal-Forcing.
+  - docs: https://thu-ml.github.io/CausalForcing.github.io/
 - [Decart (Lucy 2)](https://decart.ai): Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour.
   - docs: https://docs.platform.decart.ai/models/video/video-generation
+- [HY-WorldPlay (Tencent)](https://github.com/Tencent-Hunyuan/HY-WorldPlay): Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5.
+  - docs: https://huggingface.co/tencent/HY-WorldPlay
 - [PixVerse](https://pixverse.ai): Text-to-video and image-to-video platform. PixVerse-R1 adds real-time interactive video at 720p HD with native audio.
   - docs: https://docs.platform.pixverse.ai
 
@@ -82,6 +86,7 @@
 
 ## Video Enhancement and Understanding
 
+- [REAL Video Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer): Cross-platform GUI/CLI for frame interpolation (RIFE), upscaling (Real-ESRGAN, Waifu2x), denoising, and decompression. TensorRT and NCNN backends. Windows/macOS/Linux; v2.4.1 released Jan 2026.
 - [Topaz Video AI](https://www.topazlabs.com/topaz-video): AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA.
   - docs: https://developer.topazlabs.com
 - [Twelve Labs](https://www.twelvelabs.io): Video understanding and intelligence API. Multimodal semantic search, analysis, and text generation from video content.
@@ -142,6 +147,8 @@
   - docs: https://docs.fal.ai
 - [Luma AI SDK](https://github.com/lumalabs/lumaai-python): Sync and async clients for all Dream Machine generation modes.
   - docs: https://docs.lumalabs.ai/docs/javascript
+- [FastVideo](https://github.com/hao-ai-lab/FastVideo): Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs.
+  - docs: https://hao-ai-lab.github.io/FastVideo/
 - [HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK): TypeScript SDK for real-time WebRTC interactive avatar sessions.
 - [Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/): Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
 - [Shotstack](https://shotstack.io): Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs.
