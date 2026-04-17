@@ -324,6 +324,17 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Anam AI
+  url: https://anam.ai
+  docs_url: https://anam.ai/api
+  description: Real-time interactive avatar API. CARA-3 model, 180ms median latency at 25fps/720x480. Connects to any LLM. JavaScript and Python SDKs.
+  category: avatar-and-talking-head-apis
+  sdks:
+    - {language: JavaScript, url: https://github.com/anam-org/javascript-sdk}
+    - {language: Python, url: https://github.com/anam-org/python-sdk}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Video Enhancement and Understanding ----------------
 
 - name: Topaz Video AI
@@ -343,6 +354,17 @@
   tags: [understanding]
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Video2X
+  url: https://github.com/k4yt3x/video2x
+  docs_url: https://github.com/k4yt3x/video2x/wiki
+  description: C/C++ framework for AI video super-resolution and frame interpolation. Supports Real-ESRGAN, Real-CUGAN, and RIFE via Vulkan. GUI and CLI. Docker images on GHCR.
+  category: video-enhancement-and-understanding
+  github: k4yt3x/video2x
+  license: AGPL-3.0
+  tags: [enhancement]
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Open Source Models ----------------
 
@@ -520,6 +542,26 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: LivePortrait (KwaiVGI)
+  url: https://github.com/KwaiVGI/LivePortrait
+  docs_url: https://liveportrait.github.io
+  description: Efficient portrait animation via stitching and retargeting control. 12.8ms/frame on RTX 4090. Humans and Animals modes. Gradio UI and HuggingFace Space.
+  category: open-source-models
+  github: KwaiVGI/LivePortrait
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: MuseTalk (Tencent Music)
+  url: https://github.com/TMElyralab/MuseTalk
+  docs_url: https://huggingface.co/TMElyralab/MuseTalk
+  description: Real-time audio-driven lip-sync in latent space. 30fps+ on a V100. v1.5 improves identity consistency. Supports Chinese, English, and Japanese.
+  category: open-source-models
+  github: TMElyralab/MuseTalk
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -595,6 +637,19 @@
     - {language: Python (pip install diffusers)}
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Shotstack
+  url: https://shotstack.io
+  docs_url: https://shotstack.io/docs/guide/getting-started/core-concepts/
+  description: Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs.
+  category: sdks-and-developer-tooling
+  sdks:
+    - {language: Node, url: https://github.com/shotstack/shotstack-sdk-node}
+    - {language: Python, url: https://github.com/shotstack/shotstack-sdk-python}
+    - {language: PHP, url: https://github.com/shotstack/shotstack-sdk-php}
+    - {language: Ruby, url: https://github.com/shotstack/shotstack-sdk-ruby}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Infrastructure and Deployment ----------------
 

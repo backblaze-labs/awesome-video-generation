@@ -64,6 +64,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Avatar video generation, lip-sync, and real-time streaming avatars.
 
+- **[Anam AI](https://anam.ai)** – Real-time interactive avatar API. CARA-3 model, 180ms median latency at 25fps/720x480. Connects to any LLM. JavaScript and Python SDKs. [Docs](https://anam.ai/api) | SDK: [JavaScript](https://github.com/anam-org/javascript-sdk), [Python](https://github.com/anam-org/python-sdk)
 - **[Captions / Mirage](https://captions.ai)** – Mirage API generates hyperrealistic talking-head videos from script + image + actor ID. Natural gestures, eye contact, synchronized audio. [Docs](https://help.mirage.app/api-reference/api)
 - **[Colossyan](https://www.colossyan.com)** – Enterprise avatar video platform. 130+ avatars, 600+ voices, 100+ languages, instant avatar creation from phone recording. [Docs](https://www.colossyan.com/api)
 - **[D-ID](https://www.d-id.com/api/)** – Talking head video generation from text or audio. Express and Premium+ avatars, real-time WebRTC streaming. [Docs](https://docs.d-id.com/) | SDK: [Python](https://pypi.org/project/did-api/)
@@ -90,6 +91,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - **[Topaz Video AI](https://www.topazlabs.com/topaz-video)** – AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA. [Docs](https://developer.topazlabs.com)
 - **[Twelve Labs](https://www.twelvelabs.io)** – Video understanding and intelligence API. Multimodal semantic search, analysis, and text generation from video content. [Docs](https://docs.twelvelabs.io)
+- **[Video2X](https://github.com/k4yt3x/video2x)** – C/C++ framework for AI video super-resolution and frame interpolation. Supports Real-ESRGAN, Real-CUGAN, and RIFE via Vulkan. GUI and CLI. Docker images on GHCR. [Docs](https://github.com/k4yt3x/video2x/wiki)
 
 ## Open Source Models
 
@@ -110,8 +112,10 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[OmniAvatar](https://github.com/Omni-Avatar/OmniAvatar)** – Audio-driven full-body avatar video generation with adaptive body animation. Pixel-wise multi-hierarchical audio embedding for diverse scenes. 1.3B and 14B variants (LoRA on Wan 2.1). Local inference via CLI. [Docs](https://omni-avatar.github.io)
 - **[Allegro (Rhymes AI)](https://github.com/rhymes-ai/Allegro)** – 2.8B param VideoDiT. 6s clips at 720p/15fps. Merged into diffusers. [Docs](https://huggingface.co/rhymes-ai/Allegro)
 - **[MOVA (OpenMOSS)](https://github.com/OpenMOSS/MOVA)** – Open foundation model for synchronized video+audio generation in a single inference pass. Asymmetric dual-tower architecture with cross-attention fusion. Multilingual lip-sync and environment-aware SFX. 360p and 720p weights. Diffusers integration planned. [Docs](https://huggingface.co/OpenMOSS-Team/MOVA-720p)
+- **[LivePortrait (KwaiVGI)](https://github.com/KwaiVGI/LivePortrait)** – Efficient portrait animation via stitching and retargeting control. 12.8ms/frame on RTX 4090. Humans and Animals modes. Gradio UI and HuggingFace Space. [Docs](https://liveportrait.github.io)
 - **[Meta Movie Gen](https://ai.meta.com/research/movie-gen/)** – 30B param T2V + 13B audio model. Personalized video from single reference photo, local/global editing, synchronized audio. Research paper public; weights not yet released. Rolling out inside Instagram Reels.
 - **[Mochi 1 (Genmo)](https://www.genmo.ai)** – 10B param T2V model with AsymmDiT architecture. 5.4s at 30fps. On fal.ai and Replicate.
+- **[MuseTalk (Tencent Music)](https://github.com/TMElyralab/MuseTalk)** – Real-time audio-driven lip-sync in latent space. 30fps+ on a V100. v1.5 improves identity consistency. Supports Chinese, English, and Japanese. [Docs](https://huggingface.co/TMElyralab/MuseTalk)
 - **[NVIDIA Cosmos](https://github.com/nvidia-cosmos)** – World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs. [Docs](https://docs.nvidia.com/cosmos/latest/introduction.html)
 - **[OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io)** – Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
 
@@ -126,6 +130,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Luma AI SDK](https://github.com/lumalabs/lumaai-python)** – Sync and async clients for all Dream Machine generation modes. [Docs](https://docs.lumalabs.ai/docs/javascript) | SDK: Python (pip install lumaai)
 - **[HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK)** – TypeScript SDK for real-time WebRTC interactive avatar sessions. SDK: TypeScript (npm install @heygen/streaming-avatar)
 - **[Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/)** – Official Python and Node.js SDKs with type annotations, async support, and built-in polling. SDK: Python (pip install runwayml), Node (npm install @runwayml/sdk)
+- **[Shotstack](https://shotstack.io)** – Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs. [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/) | SDK: [Node](https://github.com/shotstack/shotstack-sdk-node), [Python](https://github.com/shotstack/shotstack-sdk-python), [PHP](https://github.com/shotstack/shotstack-sdk-php), [Ruby](https://github.com/shotstack/shotstack-sdk-ruby)
 
 ## Infrastructure and Deployment
 
