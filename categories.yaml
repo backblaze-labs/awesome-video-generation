@@ -1,0 +1,42 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: text-to-video-apis
+  name: Text-to-Video APIs
+  description: Commercial text-to-video and image-to-video APIs with developer access.
+
+- slug: real-time-and-interactive-video
+  name: Real-Time and Interactive Video
+  description: Low-latency video transformation and interactive streaming platforms.
+
+- slug: avatar-and-talking-head-apis
+  name: Avatar and Talking Head APIs
+  description: Avatar video generation, lip-sync, and real-time streaming avatars.
+
+- slug: video-style-transfer-and-motion
+  name: Video Style Transfer and Motion
+  description: Video-to-video restyling and motion-transfer tools.
+
+- slug: video-enhancement-and-understanding
+  name: Video Enhancement and Understanding
+  description: Upscaling, restoration, and multimodal understanding APIs for video.
+
+- slug: open-source-models
+  name: Open Source Models
+  description: Open-weight video models with hosted inference, Docker, or diffusers support.
+
+- slug: sdks-and-developer-tooling
+  name: SDKs and Developer Tooling
+  description: Client SDKs and libraries for integrating video generation into apps.
+
+- slug: infrastructure-and-deployment
+  name: Infrastructure and Deployment
+  description: GPU platforms, video processing, storage and CDN, and playback libraries.
+
+- slug: evaluation-and-observability
+  name: Evaluation and Observability
+  description: Benchmarks, leaderboards, and perceptual-quality metrics for video.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.
