@@ -58,6 +58,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - **[Krea Realtime 14B](https://github.com/krea-ai/realtime-video)** – Open-weight 14B autoregressive video model distilled from Wan 2.1 via Self-Forcing. ~11fps on a single B200, ~1s time-to-first-frame. WebSocket streaming server for mid-generation prompt edits. Research/non-commercial license. [Docs](https://huggingface.co/krea/krea-realtime-video)
 - **[Causal Forcing](https://github.com/thu-ml/Causal-Forcing)** – Autoregressive diffusion distillation for real-time interactive video generation on a single RTX 4090. Frame-wise and chunk-wise inference; builds on Wan 2.1. HuggingFace weights at zhuhz22/Causal-Forcing. [Docs](https://thu-ml.github.io/CausalForcing.github.io/)
+- **[CausVid](https://github.com/tianweiy/CausVid)** – CVPR 2025. Distills a bidirectional video diffusion transformer into a 4-step autoregressive generator. Enables streaming video generation at 9.4 FPS on a single GPU via KV caching. Supports T2V, I2V, and video-to-video translation. [Docs](https://huggingface.co/tianweiy/CausVid)
 - **[Decart (Lucy 2)](https://decart.ai)** – Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour. [Docs](https://docs.platform.decart.ai/models/video/video-generation)
 - **[HY-WorldPlay (Tencent)](https://github.com/Tencent-Hunyuan/HY-WorldPlay)** – Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5. [Docs](https://huggingface.co/tencent/HY-WorldPlay)
 - **[PixVerse](https://pixverse.ai)** – Text-to-video and image-to-video platform. PixVerse-R1 adds real-time interactive video at 720p HD with native audio. [Docs](https://docs.platform.pixverse.ai)
@@ -91,6 +92,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 > Upscaling, restoration, and multimodal understanding APIs for video.
 
+- **[FlashVSR](https://github.com/OpenImagingLab/FlashVSR)** – CVPR 2026. One-step diffusion framework for streaming 4x video super-resolution at ~17 FPS for 768x1408 on a single A100. Locality-constrained sparse attention and tiny conditional decoder. Apache-2.0; v1.1 weights on HuggingFace. [Docs](https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1)
 - **[REAL Video Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer)** – Cross-platform GUI/CLI for frame interpolation (RIFE), upscaling (Real-ESRGAN, Waifu2x), denoising, and decompression. TensorRT and NCNN backends. Windows/macOS/Linux; v2.4.1 released Jan 2026.
 - **[Topaz Video AI](https://www.topazlabs.com/topaz-video)** – AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA. [Docs](https://developer.topazlabs.com)
 - **[Twelve Labs](https://www.twelvelabs.io)** – Video understanding and intelligence API. Multimodal semantic search, analysis, and text generation from video content. [Docs](https://docs.twelvelabs.io)
@@ -121,6 +123,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[MuseTalk (Tencent Music)](https://github.com/TMElyralab/MuseTalk)** – Real-time audio-driven lip-sync in latent space. 30fps+ on a V100. v1.5 improves identity consistency. Supports Chinese, English, and Japanese. [Docs](https://huggingface.co/TMElyralab/MuseTalk)
 - **[NVIDIA Cosmos](https://github.com/nvidia-cosmos)** – World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs. [Docs](https://docs.nvidia.com/cosmos/latest/introduction.html)
 - **[OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io)** – Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
+- **[Wan-Alpha](https://github.com/WeChatCV/Wan-Alpha)** – CVPR 2026 highlight. Text-to-video model that outputs video with transparent alpha channels via a Shiftable RGB-A Distribution Learner. Enables compositing with arbitrary backgrounds. v1.0 and v2.0 weights on HuggingFace; ComfyUI nodes available. [Docs](https://huggingface.co/htdong/Wan-Alpha)
 
 ## SDKs and Developer Tooling
 
@@ -135,6 +138,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK)** – TypeScript SDK for real-time WebRTC interactive avatar sessions. SDK: TypeScript (npm install @heygen/streaming-avatar)
 - **[Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/)** – Official Python and Node.js SDKs with type annotations, async support, and built-in polling. SDK: Python (pip install runwayml), Node (npm install @runwayml/sdk)
 - **[Shotstack](https://shotstack.io)** – Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs. [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/) | SDK: [Node](https://github.com/shotstack/shotstack-sdk-node), [Python](https://github.com/shotstack/shotstack-sdk-python), [PHP](https://github.com/shotstack/shotstack-sdk-php), [Ruby](https://github.com/shotstack/shotstack-sdk-ruby)
+- **[Wan2GP](https://github.com/deepbeepmeep/Wan2GP)** – Low-VRAM inference GUI and server for Wan 2.1/2.2, HunyuanVideo, LTX-Video, and Flux. Runs on 6 GB VRAM via int8/fp8/GGUF/NV FP4 quantization. Supports AMD RDNA and older Nvidia GPUs. Gradio web UI with mask editor and motion designer. Custom community license; free for non-commercial use.
 
 ## Infrastructure and Deployment
 

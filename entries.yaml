@@ -222,6 +222,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: CausVid
+  url: https://github.com/tianweiy/CausVid
+  docs_url: https://huggingface.co/tianweiy/CausVid
+  description: CVPR 2025. Distills a bidirectional video diffusion transformer into a 4-step autoregressive generator. Enables streaming video generation at 9.4 FPS on a single GPU via KV caching. Supports T2V, I2V, and video-to-video translation.
+  category: real-time-and-interactive-video
+  github: tianweiy/CausVid
+  license: CC-BY-NC-SA-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Video Style Transfer and Motion ----------------
 
 - name: DomoAI
@@ -391,6 +401,17 @@
   category: video-enhancement-and-understanding
   github: TNTwise/REAL-Video-Enhancer
   license: AGPL-3.0
+  tags: [enhancement]
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: FlashVSR
+  url: https://github.com/OpenImagingLab/FlashVSR
+  docs_url: https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1
+  description: CVPR 2026. One-step diffusion framework for streaming 4x video super-resolution at ~17 FPS for 768x1408 on a single A100. Locality-constrained sparse attention and tiny conditional decoder. Apache-2.0; v1.1 weights on HuggingFace.
+  category: video-enhancement-and-understanding
+  github: OpenImagingLab/FlashVSR
+  license: Apache-2.0
   tags: [enhancement]
   b2_integration: ""
   last_verified: 2026-04-18
@@ -591,6 +612,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Wan-Alpha
+  url: https://github.com/WeChatCV/Wan-Alpha
+  docs_url: https://huggingface.co/htdong/Wan-Alpha
+  description: CVPR 2026 highlight. Text-to-video model that outputs video with transparent alpha channels via a Shiftable RGB-A Distribution Learner. Enables compositing with arbitrary backgrounds. v1.0 and v2.0 weights on HuggingFace; ComfyUI nodes available.
+  category: open-source-models
+  github: WeChatCV/Wan-Alpha
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -689,6 +720,14 @@
   license: Apache-2.0
   sdks:
     - {language: Python, url: https://pypi.org/project/fastvideo/}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Wan2GP
+  url: https://github.com/deepbeepmeep/Wan2GP
+  description: Low-VRAM inference GUI and server for Wan 2.1/2.2, HunyuanVideo, LTX-Video, and Flux. Runs on 6 GB VRAM via int8/fp8/GGUF/NV FP4 quantization. Supports AMD RDNA and older Nvidia GPUs. Gradio web UI with mask editor and motion designer. Custom community license; free for non-commercial use.
+  category: sdks-and-developer-tooling
+  github: deepbeepmeep/Wan2GP
   b2_integration: ""
   last_verified: 2026-04-18
 

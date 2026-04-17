@@ -45,6 +45,8 @@
   - docs: https://huggingface.co/krea/krea-realtime-video
 - [Causal Forcing](https://github.com/thu-ml/Causal-Forcing): Autoregressive diffusion distillation for real-time interactive video generation on a single RTX 4090. Frame-wise and chunk-wise inference; builds on Wan 2.1. HuggingFace weights at zhuhz22/Causal-Forcing.
   - docs: https://thu-ml.github.io/CausalForcing.github.io/
+- [CausVid](https://github.com/tianweiy/CausVid): CVPR 2025. Distills a bidirectional video diffusion transformer into a 4-step autoregressive generator. Enables streaming video generation at 9.4 FPS on a single GPU via KV caching. Supports T2V, I2V, and video-to-video translation.
+  - docs: https://huggingface.co/tianweiy/CausVid
 - [Decart (Lucy 2)](https://decart.ai): Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour.
   - docs: https://docs.platform.decart.ai/models/video/video-generation
 - [HY-WorldPlay (Tencent)](https://github.com/Tencent-Hunyuan/HY-WorldPlay): Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5.
@@ -86,6 +88,8 @@
 
 ## Video Enhancement and Understanding
 
+- [FlashVSR](https://github.com/OpenImagingLab/FlashVSR): CVPR 2026. One-step diffusion framework for streaming 4x video super-resolution at ~17 FPS for 768x1408 on a single A100. Locality-constrained sparse attention and tiny conditional decoder. Apache-2.0; v1.1 weights on HuggingFace.
+  - docs: https://huggingface.co/JunhaoZhuang/FlashVSR-v1.1
 - [REAL Video Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer): Cross-platform GUI/CLI for frame interpolation (RIFE), upscaling (Real-ESRGAN, Waifu2x), denoising, and decompression. TensorRT and NCNN backends. Windows/macOS/Linux; v2.4.1 released Jan 2026.
 - [Topaz Video AI](https://www.topazlabs.com/topaz-video): AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA.
   - docs: https://developer.topazlabs.com
@@ -134,6 +138,8 @@
 - [NVIDIA Cosmos](https://github.com/nvidia-cosmos): World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs.
   - docs: https://docs.nvidia.com/cosmos/latest/introduction.html
 - [OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io): Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
+- [Wan-Alpha](https://github.com/WeChatCV/Wan-Alpha): CVPR 2026 highlight. Text-to-video model that outputs video with transparent alpha channels via a Shiftable RGB-A Distribution Learner. Enables compositing with arbitrary backgrounds. v1.0 and v2.0 weights on HuggingFace; ComfyUI nodes available.
+  - docs: https://huggingface.co/htdong/Wan-Alpha
 
 ## SDKs and Developer Tooling
 
@@ -153,6 +159,7 @@
 - [Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/): Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
 - [Shotstack](https://shotstack.io): Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs.
   - docs: https://shotstack.io/docs/guide/getting-started/core-concepts/
+- [Wan2GP](https://github.com/deepbeepmeep/Wan2GP): Low-VRAM inference GUI and server for Wan 2.1/2.2, HunyuanVideo, LTX-Video, and Flux. Runs on 6 GB VRAM via int8/fp8/GGUF/NV FP4 quantization. Supports AMD RDNA and older Nvidia GPUs. Gradio web UI with mask editor and motion designer. Custom community license; free for non-commercial use.
 
 ## Infrastructure and Deployment
 
