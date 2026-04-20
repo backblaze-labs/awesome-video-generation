@@ -250,6 +250,18 @@
 
 # ---------------- Avatar and Talking Head APIs ----------------
 
+- name: Simli
+  url: https://www.simli.com
+  docs_url: https://docs.simli.com
+  description: Real-time speech-to-video avatar API using 3D Gaussian splatting for full-face animation (not just lip-sync). WebRTC streaming, <200ms latency. Python and JS SDKs.
+  category: avatar-and-talking-head-apis
+  github: simliai/simli-client
+  sdks:
+    - {language: Python, url: https://docs.simli.com/api-reference/python}
+    - {language: JavaScript, url: https://github.com/simliai/simli-client}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: Synthesia
   url: https://www.synthesia.io
   docs_url: https://docs.synthesia.io/
@@ -622,6 +634,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: EchoMimicV2 (Ant Group)
+  url: https://github.com/antgroup/echomimic_v2
+  docs_url: https://huggingface.co/BadToBest/EchoMimicV2
+  description: CVPR 2025. Audio-driven semi-body human animation from a single image + audio. Supports English and Mandarin. Accelerated inference (~50s for 120 frames on A100). Gradio UI included.
+  category: open-source-models
+  github: antgroup/echomimic_v2
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Duix Avatar
+  url: https://github.com/duixcom/Duix-Avatar
+  docs_url: https://github.com/duixcom/Duix-Avatar/wiki
+  description: Offline AI avatar video toolkit. Clone appearance and voice to create digital humans, then drive them via text or audio. Fully offline; Windows and Ubuntu support. Free commercial use under community license.
+  category: open-source-models
+  github: duixcom/Duix-Avatar
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -731,6 +762,17 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Remotion
+  url: https://www.remotion.dev
+  docs_url: https://www.remotion.dev/docs
+  description: React framework for programmatic video generation. Define videos as React components, render server-side via CLI or Lambda (AWS). TypeScript-first; supports any CSS, Canvas, SVG, WebGL.
+  category: sdks-and-developer-tooling
+  github: remotion-dev/remotion
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/remotion}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Infrastructure and Deployment ----------------
 
 - name: Lambda Labs
@@ -810,6 +852,15 @@
   tags: [gpu]
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: SiliconFlow
+  url: https://siliconflow.cn
+  docs_url: https://docs.siliconflow.cn/en/userguide/capabilities/video
+  description: Managed inference API for open-source video models including Wan2.1/2.2 T2V and I2V, and HunyuanVideo-HD. OpenAI-compatible REST API at api.siliconflow.cn/v1. English docs available.
+  category: infrastructure-and-deployment
+  tags: [gpu]
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 - name: FFmpeg
   url: https://ffmpeg.org
