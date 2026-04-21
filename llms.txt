@@ -51,6 +51,8 @@
   - docs: https://huggingface.co/tianweiy/CausVid
 - [Decart (Lucy 2)](https://decart.ai): Real-time video transformation at 30fps 1080p with near-zero latency. Live-stream style transfer, character swaps, environment transformation, product placement. ~$3/hour.
   - docs: https://docs.platform.decart.ai/models/video/video-generation
+- [Helios (PKU Yuan Group)](https://github.com/PKU-YuanGroup/Helios): 14B autoregressive diffusion model for T2V, I2V, and V2V. Generates minute-scale video at 19.5 FPS on a single H100 without KV-cache or causal masking. Three weight variants (Base, Mid, Distilled) on HuggingFace. Diffusers-compatible; group offloading reduces VRAM to ~6 GB.
+  - docs: https://pku-yuangroup.github.io/Helios-Page/
 - [HY-WorldPlay (Tencent)](https://github.com/Tencent-Hunyuan/HY-WorldPlay): Streaming video diffusion model for real-time interactive world generation at 24fps. Accepts image or text prompt; responds to keyboard/mouse camera inputs. WorldPlay-5B and 8B weights open. Built on HunyuanVideo 1.5.
   - docs: https://huggingface.co/tencent/HY-WorldPlay
 - [LongLive (NVIDIA Labs)](https://github.com/NVlabs/LongLive): ICLR 2026. Real-time interactive long video generation at 20.7 FPS on a single H100. Accepts sequential user prompts; generates up to 240s with visual consistency via KV-recache and frame-level attention sink. LongLive-1.3B weights on HuggingFace.
@@ -141,6 +143,8 @@
   - docs: https://github.com/duixcom/Duix-Avatar/wiki
 - [EchoMimicV2 (Ant Group)](https://github.com/antgroup/echomimic_v2): CVPR 2025. Audio-driven semi-body human animation from a single image + audio. Supports English and Mandarin. Accelerated inference (~50s for 120 frames on A100). Gradio UI included.
   - docs: https://huggingface.co/BadToBest/EchoMimicV2
+- [FramePack (lllyasviel)](https://github.com/lllyasviel/FramePack): Next-frame prediction I2V model that packs input context to constant length so generation cost is independent of video length. Generates 60s/30fps video with a 13B model on 6 GB VRAM. Gradio GUI; Windows one-click package and Linux pip install.
+  - docs: https://lllyasviel.github.io/frame_pack_gitpage/
 - [LivePortrait (KwaiVGI)](https://github.com/KwaiVGI/LivePortrait): Efficient portrait animation via stitching and retargeting control. 12.8ms/frame on RTX 4090. Humans and Animals modes. Gradio UI and HuggingFace Space.
   - docs: https://liveportrait.github.io
 - [Meta Movie Gen](https://ai.meta.com/research/movie-gen/): 30B param T2V + 13B audio model. Personalized video from single reference photo, local/global editing, synchronized audio. Research paper public; weights not yet released. Rolling out inside Instagram Reels.
@@ -150,6 +154,8 @@
 - [NVIDIA Cosmos](https://github.com/nvidia-cosmos): World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs.
   - docs: https://docs.nvidia.com/cosmos/latest/introduction.html
 - [OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io): Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
+- [Open-Sora-Plan (PKU Yuan Group)](https://github.com/PKU-YuanGroup/Open-Sora-Plan): Open reproduction of Sora-style generation. v1.5.0 (Jun 2025) uses an 8B-scale sparse DiT (SUV) with WFVAE achieving HunyuanVideo-level quality. Supports T2V, I2V, and image generation. HuggingFace and ModelScope weights.
+  - docs: https://huggingface.co/PKU-Yuan-Lab
 - [Wan-Alpha](https://github.com/WeChatCV/Wan-Alpha): CVPR 2026 highlight. Text-to-video model that outputs video with transparent alpha channels via a Shiftable RGB-A Distribution Learner. Enables compositing with arbitrary backgrounds. v1.0 and v2.0 weights on HuggingFace; ComfyUI nodes available.
   - docs: https://huggingface.co/htdong/Wan-Alpha
 
@@ -174,6 +180,8 @@
 - [Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/): Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
 - [Shotstack](https://shotstack.io): Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs.
   - docs: https://shotstack.io/docs/guide/getting-started/core-concepts/
+- [TalkingHead (met4citizen)](https://github.com/met4citizen/TalkingHead): JavaScript class for real-time 3D avatar lip-sync. Full-body RPM/VRM avatars driven by TTS audio. Integrates ElevenLabs, OpenAI, Google TTS, and Azure. Installable via npm; CDN import also supported. MIT license; v1.7.0 released Dec 2025.
+  - docs: https://met4citizen.github.io/TalkingHead/
 - [TurboDiffusion](https://github.com/thu-ml/TurboDiffusion): Inference acceleration framework for video diffusion models. Combines SageAttention, Sparse-Linear Attention, and rCM timestep distillation for 100–200x speedup. Supports TurboWan 2.1/2.2 T2V and I2V at 480p/720p. pip install + CLI inference.
 - [Wan2GP](https://github.com/deepbeepmeep/Wan2GP): Low-VRAM inference GUI and server for Wan 2.1/2.2, HunyuanVideo, LTX-Video, and Flux. Runs on 6 GB VRAM via int8/fp8/GGUF/NV FP4 quantization. Supports AMD RDNA and older Nvidia GPUs. Gradio web UI with mask editor and motion designer. Custom community license; free for non-commercial use.
 

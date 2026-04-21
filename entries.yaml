@@ -250,6 +250,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Helios (PKU Yuan Group)
+  url: https://github.com/PKU-YuanGroup/Helios
+  docs_url: https://pku-yuangroup.github.io/Helios-Page/
+  description: 14B autoregressive diffusion model for T2V, I2V, and V2V. Generates minute-scale video at 19.5 FPS on a single H100 without KV-cache or causal masking. Three weight variants (Base, Mid, Distilled) on HuggingFace. Diffusers-compatible; group offloading reduces VRAM to ~6 GB.
+  category: real-time-and-interactive-video
+  github: PKU-YuanGroup/Helios
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Video Style Transfer and Motion ----------------
 
 - name: DomoAI
@@ -681,6 +691,26 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: FramePack (lllyasviel)
+  url: https://github.com/lllyasviel/FramePack
+  docs_url: https://lllyasviel.github.io/frame_pack_gitpage/
+  description: Next-frame prediction I2V model that packs input context to constant length so generation cost is independent of video length. Generates 60s/30fps video with a 13B model on 6 GB VRAM. Gradio GUI; Windows one-click package and Linux pip install.
+  category: open-source-models
+  github: lllyasviel/FramePack
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Open-Sora-Plan (PKU Yuan Group)
+  url: https://github.com/PKU-YuanGroup/Open-Sora-Plan
+  docs_url: https://huggingface.co/PKU-Yuan-Lab
+  description: Open reproduction of Sora-style generation. v1.5.0 (Jun 2025) uses an 8B-scale sparse DiT (SUV) with WFVAE achieving HunyuanVideo-level quality. Supports T2V, I2V, and image generation. HuggingFace and ModelScope weights.
+  category: open-source-models
+  github: PKU-YuanGroup/Open-Sora-Plan
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -816,6 +846,18 @@
   category: sdks-and-developer-tooling
   github: NVlabs/rcm
   license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: TalkingHead (met4citizen)
+  url: https://github.com/met4citizen/TalkingHead
+  docs_url: https://met4citizen.github.io/TalkingHead/
+  description: JavaScript class for real-time 3D avatar lip-sync. Full-body RPM/VRM avatars driven by TTS audio. Integrates ElevenLabs, OpenAI, Google TTS, and Azure. Installable via npm; CDN import also supported. MIT license; v1.7.0 released Dec 2025.
+  category: sdks-and-developer-tooling
+  github: met4citizen/TalkingHead
+  license: MIT
+  sdks:
+    - {language: JavaScript, url: https://www.npmjs.com/package/@met4citizen/talkinghead}
   b2_integration: ""
   last_verified: 2026-04-21
 
