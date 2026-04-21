@@ -175,6 +175,14 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Leonardo.AI (Motion API)
+  url: https://leonardo.ai/api
+  docs_url: https://docs.leonardo.ai/reference/createtexttovideogeneration
+  description: Text-to-video and image-to-video REST API. Supports Motion 2.0, Veo 3, Veo 3 Fast, Kling 2.1/2.5 models. 480p–1080p, 4–8s clips, frame interpolation, style control.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
@@ -231,6 +239,16 @@
   license: CC-BY-NC-SA-4.0
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: LongLive (NVIDIA Labs)
+  url: https://github.com/NVlabs/LongLive
+  docs_url: https://nvlabs.github.io/LongLive/
+  description: ICLR 2026. Real-time interactive long video generation at 20.7 FPS on a single H100. Accepts sequential user prompts; generates up to 240s with visual consistency via KV-recache and frame-level attention sink. LongLive-1.3B weights on HuggingFace.
+  category: real-time-and-interactive-video
+  github: NVlabs/LongLive
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Video Style Transfer and Motion ----------------
 
@@ -653,6 +671,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: daVinci-MagiHuman
+  url: https://github.com/GAIR-NLP/daVinci-MagiHuman
+  docs_url: https://huggingface.co/GAIR/daVinci-MagiHuman
+  description: 15B open-source audio-video generation model (Sand.ai + GAIR). Unified transformer jointly processes text, video, and audio for lip-synced talking-head generation. T2V and TI2V modes; 7 languages; 2s for 5s/256p clip on H100. Apache-2.0.
+  category: open-source-models
+  github: GAIR-NLP/daVinci-MagiHuman
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -772,6 +800,24 @@
     - {language: TypeScript, url: https://www.npmjs.com/package/remotion}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: TurboDiffusion
+  url: https://github.com/thu-ml/TurboDiffusion
+  description: Inference acceleration framework for video diffusion models. Combines SageAttention, Sparse-Linear Attention, and rCM timestep distillation for 100–200x speedup. Supports TurboWan 2.1/2.2 T2V and I2V at 480p/720p. pip install + CLI inference.
+  category: sdks-and-developer-tooling
+  github: thu-ml/TurboDiffusion
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: rCM (NVIDIA Labs)
+  url: https://github.com/NVlabs/rcm
+  description: ICLR 2026. JVP-based continuous-time consistency distillation for 10B+ video diffusion models (Wan2.1, Cosmos-Predict2). Generates high-quality videos in 2–4 steps, 15–50x faster than full diffusion. FlashAttention-2 JVP kernel open-sourced.
+  category: sdks-and-developer-tooling
+  github: NVlabs/rcm
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Infrastructure and Deployment ----------------
 
