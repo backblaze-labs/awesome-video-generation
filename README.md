@@ -84,6 +84,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Synthesia](https://www.synthesia.io)** – Avatar-based video creation from scripts. 140+ languages, custom avatars, template workflows. API in beta. [Docs](https://docs.synthesia.io/)
 - **[SynthLife](https://synthlife.co)** – Virtual AI influencer creation. Creates AI personas for TikTok, YouTube, Instagram with auto-scheduling and unlimited content generation.
 - **[Tavus](https://www.tavus.io)** – Conversational video AI. Phoenix-4 model does real-time gaussian-diffusion facial synthesis at ~600ms latency. Replica API clones face + voice. Integrates with Pipecat and LiveKit. [Docs](https://www.tavus.io/ai-video-api)
+- **[VEED Fabric 1.0](https://www.veed.io/tools/fabric-1.0-api)** – Image + audio to talking-video API. Diffusion Transformer drives lip-sync, head, and body gestures from any image (photo, illustration, mascot). Up to 5 min; 480p/720p MP4 output. REST via fal.ai; Python and JS SDKs. [Docs](https://fal.ai/models/veed/fabric-1.0) | SDK: [Python](https://docs.fal.ai), [JavaScript](https://docs.fal.ai)
 
 ## Video Style Transfer and Motion
 
@@ -101,6 +102,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Topaz Video AI](https://www.topazlabs.com/topaz-video)** – AI video upscaling, denoising, frame interpolation, and artifact correction. 3M+ users; used by Google, Tesla, NASA. [Docs](https://developer.topazlabs.com)
 - **[Twelve Labs](https://www.twelvelabs.io)** – Video understanding and intelligence API. Multimodal semantic search, analysis, and text generation from video content. [Docs](https://docs.twelvelabs.io)
 - **[Video2X](https://github.com/k4yt3x/video2x)** – C/C++ framework for AI video super-resolution and frame interpolation. Supports Real-ESRGAN, Real-CUGAN, and RIFE via Vulkan. GUI and CLI. Docker images on GHCR. [Docs](https://github.com/k4yt3x/video2x/wiki)
+- **[WebSR](https://github.com/sb2702/websr)** – JavaScript/WebGPU library for real-time AI video and image upscaling in the browser. Multiple pre-trained network sizes (animation, real-life, 3D content), worker thread support, and a custom training pipeline. Installable via npm. SDK: [JavaScript](https://www.npmjs.com/package/@websr/websr)
 
 ## Open Source Models
 
@@ -132,6 +134,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[NVIDIA Cosmos](https://github.com/nvidia-cosmos)** – World foundation model for physical AI (robotics, autonomous vehicles). Cosmos-Predict2.5 generates physics-based video simulations from text/image/video/sensor inputs. [Docs](https://docs.nvidia.com/cosmos/latest/introduction.html)
 - **[OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io)** – Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
 - **[Open-Sora-Plan (PKU Yuan Group)](https://github.com/PKU-YuanGroup/Open-Sora-Plan)** – Open reproduction of Sora-style generation. v1.5.0 (Jun 2025) uses an 8B-scale sparse DiT (SUV) with WFVAE achieving HunyuanVideo-level quality. Supports T2V, I2V, and image generation. HuggingFace and ModelScope weights. [Docs](https://huggingface.co/PKU-Yuan-Lab)
+- **[UniVidX](https://github.com/houyuanchen111/UniVidX)** – SIGGRAPH 2026. Unified multimodal video diffusion framework handling 15 tasks (T2V, V2V, intrinsic decomposition, alpha matting) from one model. Stochastic Condition Masking enables any-to-any conditioning. Built on Wan2.1-T2V-14B; Apache-2.0 weights on HuggingFace. [Docs](https://huggingface.co/houyuanchen111/UniVidX)
+- **[Vid2World](https://github.com/thuml/Vid2World)** – ICLR 2026. Converts pretrained video diffusion models into action-conditioned interactive world models for robotics, game simulation, and navigation. Non-causal backbone is converted to autoregressive causal architecture with frame-level action conditioning. Pretrained checkpoints on HuggingFace. [Docs](https://knightnemo.github.io/vid2world/)
 - **[Wan-Alpha](https://github.com/WeChatCV/Wan-Alpha)** – CVPR 2026 highlight. Text-to-video model that outputs video with transparent alpha channels via a Shiftable RGB-A Distribution Learner. Enables compositing with arbitrary backgrounds. v1.0 and v2.0 weights on HuggingFace; ComfyUI nodes available. [Docs](https://huggingface.co/htdong/Wan-Alpha)
 
 ## SDKs and Developer Tooling

@@ -404,6 +404,17 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: VEED Fabric 1.0
+  url: https://www.veed.io/tools/fabric-1.0-api
+  docs_url: https://fal.ai/models/veed/fabric-1.0
+  description: Image + audio to talking-video API. Diffusion Transformer drives lip-sync, head, and body gestures from any image (photo, illustration, mascot). Up to 5 min; 480p/720p MP4 output. REST via fal.ai; Python and JS SDKs.
+  category: avatar-and-talking-head-apis
+  sdks:
+    - {language: Python, url: https://docs.fal.ai}
+    - {language: JavaScript, url: https://docs.fal.ai}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Video Enhancement and Understanding ----------------
 
 - name: Topaz Video AI
@@ -444,6 +455,18 @@
   tags: [enhancement]
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: WebSR
+  url: https://github.com/sb2702/websr
+  description: JavaScript/WebGPU library for real-time AI video and image upscaling in the browser. Multiple pre-trained network sizes (animation, real-life, 3D content), worker thread support, and a custom training pipeline. Installable via npm.
+  category: video-enhancement-and-understanding
+  github: sb2702/websr
+  license: MIT
+  tags: [enhancement]
+  sdks:
+    - {language: JavaScript, url: https://www.npmjs.com/package/@websr/websr}
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 - name: FlashVSR
   url: https://github.com/OpenImagingLab/FlashVSR
@@ -690,6 +713,26 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: UniVidX
+  url: https://github.com/houyuanchen111/UniVidX
+  docs_url: https://huggingface.co/houyuanchen111/UniVidX
+  description: SIGGRAPH 2026. Unified multimodal video diffusion framework handling 15 tasks (T2V, V2V, intrinsic decomposition, alpha matting) from one model. Stochastic Condition Masking enables any-to-any conditioning. Built on Wan2.1-T2V-14B; Apache-2.0 weights on HuggingFace.
+  category: open-source-models
+  github: houyuanchen111/UniVidX
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: Vid2World
+  url: https://github.com/thuml/Vid2World
+  docs_url: https://knightnemo.github.io/vid2world/
+  description: ICLR 2026. Converts pretrained video diffusion models into action-conditioned interactive world models for robotics, game simulation, and navigation. Non-causal backbone is converted to autoregressive causal architecture with frame-level action conditioning. Pretrained checkpoints on HuggingFace.
+  category: open-source-models
+  github: thuml/Vid2World
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 - name: FramePack (lllyasviel)
   url: https://github.com/lllyasviel/FramePack
