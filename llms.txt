@@ -159,6 +159,8 @@
 - [OmniHuman-1 (ByteDance)](https://omnihuman-lab.github.io): Multimodal human video generation from single image + motion signal (audio, video, or text). Full-body, any aspect ratio. On Replicate.
 - [Open-Sora-Plan (PKU Yuan Group)](https://github.com/PKU-YuanGroup/Open-Sora-Plan): Open reproduction of Sora-style generation. v1.5.0 (Jun 2025) uses an 8B-scale sparse DiT (SUV) with WFVAE achieving HunyuanVideo-level quality. Supports T2V, I2V, and image generation. HuggingFace and ModelScope weights.
   - docs: https://huggingface.co/PKU-Yuan-Lab
+- [SkyReels-A2 (SkyworkAI)](https://github.com/SkyworkAI/SkyReels-A2): Elements-to-video (E2V) controllable generation framework. Compose arbitrary visual elements (characters, objects, backgrounds) from reference images into coherent video via text prompts. 14B Wan2.1-based weights on HuggingFace. ComfyUI-compatible; Gradio demo included.
+  - docs: https://huggingface.co/Skywork/SkyReels-A2
 - [UniVidX](https://github.com/houyuanchen111/UniVidX): SIGGRAPH 2026. Unified multimodal video diffusion framework handling 15 tasks (T2V, V2V, intrinsic decomposition, alpha matting) from one model. Stochastic Condition Masking enables any-to-any conditioning. Built on Wan2.1-T2V-14B; Apache-2.0 weights on HuggingFace.
   - docs: https://huggingface.co/houyuanchen111/UniVidX
 - [Vid2World](https://github.com/thuml/Vid2World): ICLR 2026. Converts pretrained video diffusion models into action-conditioned interactive world models for robotics, game simulation, and navigation. Non-causal backbone is converted to autoregressive causal architecture with frame-level action conditioning. Pretrained checkpoints on HuggingFace.
@@ -178,9 +180,13 @@
   - docs: https://docs.fal.ai
 - [Luma AI SDK](https://github.com/lumalabs/lumaai-python): Sync and async clients for all Dream Machine generation modes.
   - docs: https://docs.lumalabs.ai/docs/javascript
+- [Creatomate](https://creatomate.com): Cloud video rendering API for generating data-driven videos from JSON templates. REST API with Node.js, PHP, and Python SDKs. Scales automatically; free trial available.
+  - docs: https://creatomate.com/docs/api/introduction
 - [FastVideo](https://github.com/hao-ai-lab/FastVideo): Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs.
   - docs: https://hao-ai-lab.github.io/FastVideo/
 - [HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK): TypeScript SDK for real-time WebRTC interactive avatar sessions.
+- [LTX Desktop](https://github.com/Lightricks/LTX-Desktop): Open-source nonlinear video editor with on-device AI generation (text-to-video, image-to-video, audio-to-video, retake). Runs locally on Windows/Linux with NVIDIA GPUs; API mode for macOS. Built on LTX-2.3. v1.0.5 released Apr 2026.
+  - docs: https://docs.ltx.video/open-source-model/getting-started/quick-start
 - [rCM (NVIDIA Labs)](https://github.com/NVlabs/rcm): ICLR 2026. JVP-based continuous-time consistency distillation for 10B+ video diffusion models (Wan2.1, Cosmos-Predict2). Generates high-quality videos in 2–4 steps, 15–50x faster than full diffusion. FlashAttention-2 JVP kernel open-sourced.
 - [Remotion](https://www.remotion.dev): React framework for programmatic video generation. Define videos as React components, render server-side via CLI or Lambda (AWS). TypeScript-first; supports any CSS, Canvas, SVG, WebGL.
   - docs: https://www.remotion.dev/docs
@@ -240,4 +246,6 @@
   - b2 integration: https://github.com/backblaze-b2-samples/b2-transformers-video-object-detection
 - [Google Gemini Streamlit + Cloud Run](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/gemini-streamlit-cloudrun): Sample app using Gemini multimodal with Streamlit, deployable to Cloud Run.
 - [HeyGen Streaming Avatar Demo](https://github.com/HeyGen-Official/StreamingAvatarTSDemo): Next.js/TypeScript starter for real-time WebRTC avatar sessions.
+- [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully-automated short video pipeline. Input a topic; the tool writes the script, generates AI images via ComfyUI, synthesizes voice (Edge-TTS/Index-TTS), adds music, and outputs a finished video. Supports GPT, Qwen, DeepSeek, and Ollama. Apache-2.0; v0.1.15 released Jan 2026.
+  - docs: https://aidc-ai.github.io/Pixelle-Video/
 - [Stability AI SVD Streamlit Demo](https://github.com/Stability-AI/generative-models/tree/main/scripts/demo): Streamlit demo scripts for Stable Video Diffusion.

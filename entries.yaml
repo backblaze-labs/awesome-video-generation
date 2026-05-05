@@ -754,6 +754,15 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: SkyReels-A2 (SkyworkAI)
+  url: https://github.com/SkyworkAI/SkyReels-A2
+  docs_url: https://huggingface.co/Skywork/SkyReels-A2
+  description: Elements-to-video (E2V) controllable generation framework. Compose arbitrary visual elements (characters, objects, backgrounds) from reference images into coherent video via text prompts. 14B Wan2.1-based weights on HuggingFace. ComfyUI-compatible; Gradio demo included.
+  category: open-source-models
+  github: SkyworkAI/SkyReels-A2
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -903,6 +912,28 @@
     - {language: JavaScript, url: https://www.npmjs.com/package/@met4citizen/talkinghead}
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: Creatomate
+  url: https://creatomate.com
+  docs_url: https://creatomate.com/docs/api/introduction
+  description: Cloud video rendering API for generating data-driven videos from JSON templates. REST API with Node.js, PHP, and Python SDKs. Scales automatically; free trial available.
+  category: sdks-and-developer-tooling
+  sdks:
+    - {language: Node, url: https://github.com/Creatomate/creatomate-node}
+    - {language: PHP, url: https://packagist.org/packages/creatomate/creatomate}
+    - {language: JavaScript, url: https://github.com/Creatomate/creatomate-preview}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: LTX Desktop
+  url: https://github.com/Lightricks/LTX-Desktop
+  docs_url: https://docs.ltx.video/open-source-model/getting-started/quick-start
+  description: Open-source nonlinear video editor with on-device AI generation (text-to-video, image-to-video, audio-to-video, retake). Runs locally on Windows/Linux with NVIDIA GPUs; API mode for macOS. Built on LTX-2.3. v1.0.5 released Apr 2026.
+  category: sdks-and-developer-tooling
+  github: Lightricks/LTX-Desktop
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Infrastructure and Deployment ----------------
 
@@ -1116,3 +1147,13 @@
   category: templates-and-example-projects
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Pixelle-Video
+  url: https://github.com/AIDC-AI/Pixelle-Video
+  docs_url: https://aidc-ai.github.io/Pixelle-Video/
+  description: Fully-automated short video pipeline. Input a topic; the tool writes the script, generates AI images via ComfyUI, synthesizes voice (Edge-TTS/Index-TTS), adds music, and outputs a finished video. Supports GPT, Qwen, DeepSeek, and Ollama. Apache-2.0; v0.1.15 released Jan 2026.
+  category: templates-and-example-projects
+  github: AIDC-AI/Pixelle-Video
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
