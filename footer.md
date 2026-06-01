@@ -2,9 +2,9 @@
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). One entry per PR — edit `entries.yaml` only and let the maintainers regenerate `README.md`.
 
-## Built with Genblaze
+## Start building with Genblaze
 
-Many of the tools above plug into [Genblaze](https://github.com/backblaze-labs/genblaze), Backblaze's open-source Python SDK for AI-generated video, audio, and images. It orchestrates multi-provider generation pipelines with built-in, tamper-evident provenance and native Backblaze B2 storage.
+Save on tokens by using the [Genblaze](https://github.com/backblaze-labs/genblaze) SDK — Backblaze's open-source Python SDK for AI-generated video, audio, and images. It orchestrates multi-provider generation pipelines with built-in, tamper-evident provenance and native Backblaze B2 storage.
 
 ## License
 
