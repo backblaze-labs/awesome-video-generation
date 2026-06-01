@@ -763,6 +763,16 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: SANA-WM (NVIDIA)
+  url: https://github.com/NVlabs/Sana
+  docs_url: https://nvlabs.github.io/Sana/WM/
+  description: 2.6B-parameter image-to-video world model. Generates 720p minute-scale video with 6-DoF camera control on a single GPU. Three inference variants (bidirectional, chunk-causal, distilled). Weights at Efficient-Large-Model/SANA-WM_bidirectional on HuggingFace; diffusers-compatible. Apache-2.0.
+  category: open-source-models
+  github: NVlabs/Sana
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: Replicate SDK
@@ -1099,6 +1109,16 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Video-Bench
+  url: https://github.com/Video-Bench/Video-Bench
+  docs_url: https://video-bench.github.io/
+  description: Human-aligned video generation benchmark. Uses MLLMs to evaluate nine quality dimensions (imaging quality, aesthetic quality, temporal consistency, motion effects, text alignment). pip install videobench. Apache-2.0.
+  category: evaluation-and-observability
+  github: Video-Bench/Video-Bench
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 - name: Artificial Analysis Video Arena
   url: https://artificialanalysis.ai/video/arena
   docs_url: https://artificialanalysis.ai/video/leaderboard/text-to-video
@@ -1117,6 +1137,24 @@
   github: fal-ai/fal-nextjs-template
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: ViMax
+  url: https://github.com/HKUDS/ViMax
+  description: Multi-agent agentic video generation framework (Director, Screenwriter, Producer all-in-one). Orchestrates 12 specialized agents for end-to-end script-to-video with character and scene consistency. uv install; supports Gemini, MiniMax, and Veo 2 backends. MIT license.
+  category: templates-and-example-projects
+  github: HKUDS/ViMax
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: OpenMontage
+  url: https://github.com/calesthio/OpenMontage
+  description: Agentic video production system with 12 pipelines and 50+ tools. Orchestrates research, scripting, asset generation, editing, and render end-to-end. Works with Claude Code, Cursor, Copilot; pip install; free local-only mode via Piper TTS and open stock archives. AGPL-3.0.
+  category: templates-and-example-projects
+  github: calesthio/OpenMontage
+  license: AGPL-3.0
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 - name: HeyGen Streaming Avatar Demo
   url: https://github.com/HeyGen-Official/StreamingAvatarTSDemo
