@@ -181,6 +181,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[RunPod](https://www.runpod.io)** – GPU pods (persistent) and serverless endpoints. REST, GraphQL, and CLI. [Docs](https://docs.runpod.io)
 - **[SiliconFlow](https://siliconflow.cn)** – Managed inference API for open-source video models including Wan2.1/2.2 T2V and I2V, and HunyuanVideo-HD. OpenAI-compatible REST API at api.siliconflow.cn/v1. English docs available. [Docs](https://docs.siliconflow.cn/en/userguide/capabilities/video)
 - **[Together AI](https://www.together.ai)** – Inference API for 200+ open models plus Instant Clusters for self-service GPU clusters.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** – Trust scoring for AI agent wallets on Solana. Verify agent identity before x402 micropayments for video generation compute. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 - **[WaveSpeedAI](https://wavespeed.ai)** – Fast AI inference with no cold starts. 600+ models. 30–50% cheaper than HuggingFace Inference. 99.9% uptime SLA. [Docs](https://github.com/wavespeedai)
 
 ## Evaluation and Observability
