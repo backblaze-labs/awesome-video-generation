@@ -182,6 +182,13 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-04-21
+- name: cv.cm/v
+  url: https://cv.cm/v
+  docs_url: https://cv.cm/api
+  description: Queue-free Seedance 2.0 text-to-video and image-to-video, plus gpt-image-2/Seedream image generation, exposed through an open developer API.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-06-09
 
 # ---------------- Real-Time and Interactive Video ----------------
 
