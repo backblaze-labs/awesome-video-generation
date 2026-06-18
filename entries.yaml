@@ -945,6 +945,16 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Avatar Video Workbench
+  url: https://github.com/IaMarric/avatar-video-workbench
+  docs_url: https://github.com/IaMarric/avatar-video-workbench/tree/main/docs
+  description: Open-source CLI/control plane for reproducible avatar LoRA and image-to-video experiments, with Vertex job staging, LTX run metadata, sanitized reports, and publication safety scans.
+  category: sdks-and-developer-tooling
+  github: IaMarric/avatar-video-workbench
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-06-15
+
 # ---------------- Infrastructure and Deployment ----------------
 
 - name: Lambda Labs
