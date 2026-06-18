@@ -935,6 +935,14 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Rendobar
+  url: https://rendobar.com
+  docs_url: https://rendobar.com/docs
+  description: Serverless media processing API for developers and AI agents. One endpoint covering FFmpeg commands, animated and burned-in captions, watermarking, transcoding, and metadata extraction. MCP-native, with a Node SDK and CLI.
+  category: sdks-and-developer-tooling
+  b2_integration: ""
+  last_verified: 2026-06-18
+
 - name: LTX Desktop
   url: https://github.com/Lightricks/LTX-Desktop
   docs_url: https://docs.ltx.video/open-source-model/getting-started/quick-start
