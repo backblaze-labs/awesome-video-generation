@@ -54,6 +54,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Vidu (Shengshu Technology)](https://www.shengshu.com/en/vidu)** – Now on Vidu Q3, the first long-form AI video model with native audio-video generation in a single output. Ranked
 - **[Wan 2.7 (Alibaba)](https://fal.ai/wan-2.7)** – Commercial successor to open-weight Wan 2.2. Native 1080p, 2–15s clips, first-and-last-frame control, up to 5 reference inputs, instruction-based video editing. Via DashScope and fal.ai at $0.10/sec. [Docs](https://help.aliyun.com/zh/model-studio/wanx-video-generation)
 - **[xAI Aurora / Grok Imagine](https://x.ai)** – Text-to-video and image-to-video using xAI's Aurora autoregressive MoE model. 6–15s clips at 720p with synchronized audio. [Docs](https://x.ai/news/grok-imagine-api)
+- **[iaVideo.pt](https://iavideo.pt)** - Portuguese AI video generator (text-to-video & image-to-video) with 12+ models, narration & subtitles in European Portuguese.
 
 ## Real-Time and Interactive Video
 
