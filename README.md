@@ -1,3 +1,5 @@
+- [iaVideo.pt](https://iavideo.pt) - Portuguese AI video generator (text-to-video & image-to-video) with 12+ models, narration & subtitles in European Portuguese.
+
 # Awesome Video Generation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ![Abstract illustration of AI video generation systems](assets/readme-hero.png)
