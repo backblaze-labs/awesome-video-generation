@@ -808,6 +808,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI Veo 3 SDK
+  url: https://github.com/runapi-ai/veo-3.1-sdk
+  docs_url: https://runapi.ai/models/veo-3.1
+  description: JavaScript, Python, Ruby, Go, and Java clients for Veo 3 text-to-video, video extension, and video upscale workflows on RunAPI.
+  category: sdks-and-developer-tooling
+  github: runapi-ai/veo-3.1-sdk
+  sdks:
+    - {language: JavaScript (npm install @runapi.ai/veo-3-1)}
+    - {language: Python (pip install runapi-veo-3-1)}
+    - {language: Ruby (gem install runapi-veo_3_1)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-06-25
+
 - name: Luma AI SDK
   url: https://github.com/lumalabs/lumaai-python
   docs_url: https://docs.lumalabs.ai/docs/javascript
