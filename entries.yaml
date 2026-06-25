@@ -808,6 +808,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI Kling SDK
+  url: https://github.com/runapi-ai/kling-sdk
+  docs_url: https://runapi.ai/models/kling
+  description: JavaScript, Python, Ruby, Go, and Java clients for Kling text-to-video, image-to-video, avatar, and motion-control workflows on RunAPI.
+  category: sdks-and-developer-tooling
+  github: runapi-ai/kling-sdk
+  sdks:
+    - {language: JavaScript (npm install @runapi.ai/kling)}
+    - {language: Python (pip install runapi-kling)}
+    - {language: Ruby (gem install runapi-kling)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-06-25
+
 - name: Luma AI SDK
   url: https://github.com/lumalabs/lumaai-python
   docs_url: https://docs.lumalabs.ai/docs/javascript
