@@ -808,6 +808,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI Seedance SDK
+  url: https://github.com/runapi-ai/seedance-sdk
+  docs_url: https://runapi.ai/models/seedance
+  description: JavaScript, Python, Ruby, Go, and Java clients for Seedance text-to-video workflows on RunAPI.
+  category: sdks-and-developer-tooling
+  github: runapi-ai/seedance-sdk
+  sdks:
+    - {language: JavaScript (npm install @runapi.ai/seedance)}
+    - {language: Python (pip install runapi-seedance)}
+    - {language: Ruby (gem install runapi-seedance)}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-06-25
+
 - name: Luma AI SDK
   url: https://github.com/lumalabs/lumaai-python
   docs_url: https://docs.lumalabs.ai/docs/javascript
