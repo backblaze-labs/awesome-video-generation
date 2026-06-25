@@ -940,6 +940,21 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: RunAPI
+  url: https://runapi.ai
+  docs_url: https://runapi.ai/models/kling
+  description: Unified API and client SDKs for video generation models including Kling, Seedance and Veo, with text-to-video, image-to-video, extension and upscale jobs.
+  category: text-to-video-apis
+  license: Apache-2.0
+  sdks:
+    - {language: JavaScript}
+    - {language: Python}
+    - {language: Ruby}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-11-19
+
 - name: Luma AI SDK
   url: https://github.com/lumalabs/lumaai-python
   docs_url: https://docs.lumalabs.ai/docs/javascript
