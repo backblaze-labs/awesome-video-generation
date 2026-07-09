@@ -1195,3 +1195,17 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: YumCut
+  url: https://github.com/IgorShadurin/app.yumcut.com
+  docs_url: https://app.yumcut.com/api/user/v1/docs
+  description: Source-available, self-hosted short-video workflow that generates scripts, voiceovers, visuals, captions, and finished 9:16 videos. Includes a bearer-key API for project automation and media downloads.
+  category: templates-and-example-projects
+  github: IgorShadurin/app.yumcut.com
+  license: PolyForm-Noncommercial-1.0.0
+  tags:
+    - short-form-video
+    - self-hosted
+    - automation-api
+  b2_integration: ""
+  last_verified: 2026-07-09
