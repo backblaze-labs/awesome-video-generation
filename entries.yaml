@@ -167,6 +167,19 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: DaoXE
+  url: https://daoxe.com
+  docs_url: https://github.com/seven7763/DaoXE-AI
+  description: "Multi-model multi-protocol AI API gateway exposing text, image, and video models through one account. Public catalog includes Sora, Veo, Kling, and Grok Imagine video IDs alongside image generation and chat protocols; not available in mainland China."
+  category: text-to-video-apis
+  github: seven7763/DaoXE-AI
+  sdks:
+    - {language: OpenAI SDK (Python/Node via base URL)}
+    - {language: cURL / Postman}
+  tags: [multi-model, multi-protocol, gateway]
+  b2_integration: ""
+  last_verified: 2026-07-13
+
 - name: Wan 2.7 (Alibaba)
   url: https://fal.ai/wan-2.7
   docs_url: https://help.aliyun.com/zh/model-studio/wanx-video-generation
