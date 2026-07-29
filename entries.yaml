@@ -101,6 +101,15 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Zexi Seedance 2.0 API
+  url: https://quanzedong-cell.github.io/seedance-2-api/en/
+  docs_url: https://zexitongxue.com/docs/video-api.html
+  description: Enterprise Seedance 2.0 REST API for text-to-video, image-to-video, reference inputs, asynchronous tasks, and usage reporting.
+  category: text-to-video-apis
+  github: quanzedong-cell/seedance-2-api
+  b2_integration: ""
+  last_verified: 2026-07-30
+
 - name: Stability AI (SVD)
   url: https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt
   docs_url: https://github.com/Stability-AI/generative-models
