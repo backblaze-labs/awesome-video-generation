@@ -838,6 +838,19 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: OrkasVideoStudio
+  url: https://github.com/Orkas-AI/Orkas-VideoStudio
+  description: Local-first TypeScript CLI and MCP toolkit that lets coding agents compose, edit, generate, and assemble videos from editable plan.json timelines.
+  category: sdks-and-developer-tooling
+  github: Orkas-AI/Orkas-VideoStudio
+  license: MIT
+  tags:
+    - video-processing
+    - mcp
+    - cli
+  b2_integration: ""
+  last_verified: 2026-07-29
+
 - name: HuggingFace Diffusers
   url: https://github.com/huggingface/diffusers
   docs_url: https://huggingface.co/docs/diffusers
