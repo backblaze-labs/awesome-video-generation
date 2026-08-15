@@ -183,6 +183,17 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: SandBase
+  url: https://github.com/sandbaseai/cli
+  docs_url: https://docs.sandbase.ai/models/
+  description: Unified CLI and MCP bridge for 2,000+ AI models and APIs, including video generation through Kling, MiniMax, Runway, and Luma with async job polling.
+  category: text-to-video-apis
+  github: sandbaseai/cli
+  license: Apache-2.0
+  tags: [multi-model, cli, mcp]
+  b2_integration: ""
+  last_verified: 2026-08-15
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
