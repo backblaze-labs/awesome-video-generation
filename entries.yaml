@@ -1119,6 +1119,16 @@
   b2_integration: ""
   last_verified: 2026-06-01
 
+- name: VideoScore2
+  url: https://github.com/TIGER-AI-Lab/VideoScore2
+  docs_url: https://tiger-ai-lab.github.io/VideoScore2/
+  description: Open-source evaluator for generated videos across visual quality, text-video alignment, and physical/common-sense consistency, with a single-video inference script.
+  category: evaluation-and-observability
+  github: TIGER-AI-Lab/VideoScore2
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-08-17
+
 - name: Artificial Analysis Video Arena
   url: https://artificialanalysis.ai/video/arena
   docs_url: https://artificialanalysis.ai/video/leaderboard/text-to-video
