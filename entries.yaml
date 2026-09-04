@@ -120,10 +120,10 @@
 - name: Magic Hour
   url: https://magichour.ai
   docs_url: https://docs.magichour.ai
-  description: Multi-modal AI video generation API. Text-to-video, image-to-video, style transfer, 4K upscaling. Scales to zero when idle.
+  description: REST API for text-to-video, image-to-video, face swap, lip sync, video translation, and video-to-video workflows.
   category: text-to-video-apis
   b2_integration: ""
-  last_verified: 2026-03-01
+  last_verified: 2026-09-03
 
 - name: InVideo AI
   url: https://invideo.io
