@@ -1195,3 +1195,12 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: OrkasVideoStudio
+  url: https://github.com/Orkas-AI/Orkas-VideoStudio
+  description: MIT-licensed CLI and MCP toolkit for coding agents to compose, edit and generate videos from editable timelines.
+  category: sdks-and-developer-tooling
+  github: Orkas-AI/Orkas-VideoStudio
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-09-20
