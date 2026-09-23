@@ -181,6 +181,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Pollo AI](https://pollo.ai)** – Video API aggregator providing access to Kling, Veo 3.1, Runway, Hailuo, Wan 2.6, and Pollo 2.0. [Docs](https://docs.pollo.ai)
 - **[Replicate](https://replicate.com)** – Serverless model hosting. Run open-source video models via REST API. [Docs](https://replicate.com/docs)
 - **[RunPod](https://www.runpod.io)** – GPU pods (persistent) and serverless endpoints. REST, GraphQL, and CLI. [Docs](https://docs.runpod.io)
+- **[microdrama-orchestrator](https://github.com/jajmangold/microdrama-orchestrator)** – Open-source orchestration layer for AI video production. FastAPI control plane, Prefect workflows, ComfyUI keyframe generation, Wan2GP video rendering, GPU lease management, Neo4j world-state ingestion. Docker Compose. [Code](https://github.com/jajmangold/microdrama-orchestrator)
 - **[SiliconFlow](https://siliconflow.cn)** – Managed inference API for open-source video models including Wan2.1/2.2 T2V and I2V, and HunyuanVideo-HD. OpenAI-compatible REST API at api.siliconflow.cn/v1. English docs available. [Docs](https://docs.siliconflow.cn/en/userguide/capabilities/video)
 - **[Together AI](https://www.together.ai)** – Inference API for 200+ open models plus Instant Clusters for self-service GPU clusters.
 - **[WaveSpeedAI](https://wavespeed.ai)** – Fast AI inference with no cold starts. 600+ models. 30–50% cheaper than HuggingFace Inference. 99.9% uptime SLA. [Docs](https://github.com/wavespeedai)
