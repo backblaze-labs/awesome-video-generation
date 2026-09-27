@@ -1127,6 +1127,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: AIVideoRunbook
+  url: https://github.com/madebysaira/AIVideoRunbook
+  docs_url: https://github.com/madebysaira/AIVideoRunbook
+  description: Offline-first CLI that chains pre/post-render quality gates into one credit-to-delivery pipeline. Estimates real cost (sticker x retries), enforces duration/resolution/fps floors, and logs every generation to a local SQLite catalog keyed by prompt, model, seed, and verdict. Exit codes 0/1/2 for n8n/xyOps automation. MIT.
+  category: evaluation-and-observability
+  github: madebysaira/AIVideoRunbook
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-09-16
+
 # ---------------- Templates and Example Projects ----------------
 
 - name: fal.ai Next.js Video Generator
