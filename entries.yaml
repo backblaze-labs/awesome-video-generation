@@ -1195,3 +1195,12 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: BrewReel
+  url: https://github.com/Finderchangchang/brewreel
+  description: Open-source agent skill that turns a product brief into a 1080x1920 vertical promo video; a low-cost LLM such as DeepSeek picks shots and writes copy, and Remotion renders the result.
+  category: templates-and-example-projects
+  github: Finderchangchang/brewreel
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-09-27
