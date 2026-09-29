@@ -5,6 +5,21 @@
 
 # ---------------- Text-to-Video APIs ----------------
 
+
+
+- name: VideoGen
+  url: https://videogen.io/videogen-api
+  docs_url: https://docs.videogen.io
+  description: End-to-end script, voiceover, and slideshow-to-video workflows with visuals, narration, captions, and MP4 export.
+  category: text-to-video-apis
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@videogen/sdk}
+    - {language: Python, url: https://pypi.org/project/videogen/}
+  b2_integration: ""
+  last_verified: 2026-09-29
+
+
+
 - name: OpenAI Sora
   url: https://openai.com/sora
   docs_url: https://platform.openai.com/docs/api-reference/videos
