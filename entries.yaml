@@ -16,6 +16,14 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: Muapi
+  url: https://muapi.ai
+  docs_url: https://muapi.ai/docs/video-generation
+  description: Hosted API for generating video from text prompts or image inputs, with model-specific request schemas and asynchronous results.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-06
+
 - name: Runway (Gen-4)
   url: https://runwayml.com/api
   docs_url: https://docs.dev.runwayml.com
