@@ -183,6 +183,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: MakeAIVideo
+  url: https://makeaivideo.ai/developers
+  docs_url: https://makeaivideo.ai/docs/api
+  description: Prompt or script to a finished short video (script, AI or stock scenes, AI voiceover in 24 languages, captions, music) via a REST API with webhooks. Also a hosted MCP server and CLI. Paid plans with a 7-day free trial.
+  category: text-to-video-apis
+  sdks:
+    - {language: TypeScript, url: https://github.com/makeaivideo-ai/sdk}
+  b2_integration: ""
+  last_verified: 2026-10-07
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
