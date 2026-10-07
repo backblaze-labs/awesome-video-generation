@@ -276,6 +276,22 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: ReShot
+  url: https://github.com/maosika-ai/reshot
+  docs_url: https://github.com/maosika-ai/reshot/blob/main/docs/USAGE.md
+  github: maosika-ai/reshot
+  description: Open-source motion transfer via depth maps. Turns a reference video into a depth-map video so Seedance 2.0/2.5, MiniMax H3 or Wan VACE repeat its choreography and camera moves with your own characters. CLI, local web UI, ComfyUI nodes; runs on an 8 GB GPU, Apple Silicon or CPU.
+  category: video-style-transfer-and-motion
+  sdks:
+    - {language: Python, url: https://pypi.org/project/reshot/}
+  license: Apache-2.0
+  tags:
+    - motion-transfer
+    - depth-estimation
+    - comfyui
+  b2_integration: ""
+  last_verified: 2026-09-14
+
 # ---------------- Avatar and Talking Head APIs ----------------
 
 - name: Simli
