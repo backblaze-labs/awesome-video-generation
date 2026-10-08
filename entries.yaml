@@ -409,6 +409,14 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: AdsTurbo
+  url: https://adsturbo.ai/open-api
+  docs_url: https://doc.adsturbo.ai
+  description: REST API for ecommerce video ads. AI actors driven by a script or custom persona, lip sync, video translation, two-step Ad Clone (analyze a reference clip, then generate variations), plus upscaling and watermark removal; async job tracking.
+  category: avatar-and-talking-head-apis
+  b2_integration: ""
+  last_verified: 2026-10-08
+
 - name: Anam AI
   url: https://anam.ai
   docs_url: https://anam.ai/api
