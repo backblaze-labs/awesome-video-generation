@@ -183,6 +183,15 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Angles Video
+  url: https://angles.video
+  docs_url: https://docs.angles.video
+  description: Turn a software repository into three selling angles and a launch-ready Angles video via REST API. Integrates with Claude Code and Codex agents.
+  category: text-to-video-apis
+  github: anglesvideo/angles-video-skill
+  b2_integration: ""
+  last_verified: 2026-09-03
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
