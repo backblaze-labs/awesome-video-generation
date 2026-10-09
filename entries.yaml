@@ -1221,3 +1221,11 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: NanoAvatar
+  url: https://github.com/wpydcr/NanoAvatar
+  docs_url: https://github.com/wpydcr/NanoAvatar#run-on-android
+  description: Audio-driven talking-avatar reference implementation with Android QNN and local CUDA runtimes, public weights, demos and APK; lifelike, smooth video and fast responses on older phones without a cloud GPU.
+  category: templates-and-example-projects
+  github: wpydcr/NanoAvatar
+  last_verified: 2026-09-12
