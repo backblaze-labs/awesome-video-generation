@@ -1221,3 +1221,13 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Manul
+  url: https://github.com/hormuz-labs/manul
+  docs_url: https://manul.si
+  description: Open-source AI video editor for macOS and Linux (TypeScript/Electron). Describe the edit in plain language and point at a frame when something is off; it edits locally and shows a before/after for every change, with no timeline. Apache-2.0.
+  category: templates-and-example-projects
+  github: hormuz-labs/manul
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-10-12
