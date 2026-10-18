@@ -251,6 +251,13 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-11-05
+- name: Katechon Arc
+  url: https://arc.katechon.technology
+  docs_url: https://arc.katechon.technology/developers/mcp
+  description: AI short-drama and video-ad studio with a remote MCP server (Streamable HTTP, personal API key, 38 tools) that lets agents create projects from an idea, script or novel and drive characters, storyboards, video generation and voiceover.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-18
 
 # ---------------- Real-Time and Interactive Video ----------------
 
