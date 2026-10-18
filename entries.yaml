@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Katechon Arc
+  url: https://arc.katechon.technology
+  docs_url: https://arc.katechon.technology/developers/mcp
+  description: AI short-drama and video-ad studio. A remote MCP server (Streamable HTTP, personal API key, 38 tools) lets agents create projects from an idea, script or novel, then drive characters and references, storyboards, video generation and voiceover. Generation spends account credits.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-18
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
