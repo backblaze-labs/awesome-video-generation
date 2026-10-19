@@ -183,6 +183,17 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: eroq
+  url: https://eroq.ai/developers
+  docs_url: https://eroq.ai/docs
+  description: REST API for text-to-video and image-to-video on named engines (Seedance, Kling, Veo, Hailuo, Runway) plus eroq's own Motion One, priced per second in credits. Async jobs with webhooks, an OpenAPI spec, a remote MCP server and a CLI.
+  category: text-to-video-apis
+  sdks:
+    - {language: CLI, url: https://www.npmjs.com/package/@eroq/cli}
+  tags: [mcp, webhooks, openapi]
+  b2_integration: ""
+  last_verified: 2026-10-19
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
