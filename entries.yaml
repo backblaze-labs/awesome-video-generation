@@ -1257,3 +1257,12 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-09-20
+- name: PowerTokens Video Studio
+  url: https://github.com/PowerTokens/video-studio
+  docs_url: https://powertokens.github.io/video-studio-web/
+  description: Free MIT Windows desktop + web client for batch/compare text-to-video across Wan, Seedance, Kling, and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
+  category: templates-and-example-projects
+  github: PowerTokens/video-studio
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-10-20
