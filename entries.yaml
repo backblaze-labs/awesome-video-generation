@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Castaly
+  url: https://castaly.modelflare.dev/
+  docs_url: https://docs.modelflare.dev/models/video/
+  description: Web studio for AI video and image generation with Seedance, Kling, Wan and MiniMax models. Compares model specs and per-generation prices side by side; pay-as-you-go, no subscription. The same models are available via the Modelflare API gateway (async video endpoints).
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-20
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
