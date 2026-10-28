@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Revana
+  url: https://revana.si
+  docs_url: https://revana.si/docs
+  description: Pay-as-you-go REST API for 120+ video and image models (Seedance 2.5, Veo 3.1, Kling, Wan, Nano Banana) behind one key. Routes each job to the cheapest working provider with automatic fallback; failed generations are not charged. Also an MCP server.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-28
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
