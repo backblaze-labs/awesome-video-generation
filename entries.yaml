@@ -1343,6 +1343,13 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-09-16
+- name: VidFare
+  url: https://sheepinboots.github.io/clipcost/
+  docs_url: https://sheepinboots.github.io/clipcost/llms.txt
+  description: Per-second price comparison of video generation APIs and credit plans (9 models, 10 platforms), re-checked daily, with source links and a public deals.json.
+  category: evaluation-and-observability
+  b2_integration: ""
+  last_verified: 2026-10-28
 
 # ---------------- Templates and Example Projects ----------------
 
