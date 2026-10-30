@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: HopBase
+  url: https://hop-base.com
+  docs_url: https://hop-base.com/en/docs/media/video
+  description: One API key for Seedance, Kling, MiniMax Hailuo, Wan, HappyHorse and Grok Imagine video generation through a shared async submit/poll task API, alongside image models and LLMs.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-31
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
