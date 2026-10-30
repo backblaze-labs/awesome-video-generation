@@ -1221,3 +1221,10 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Gemini Omni Guide
+  url: https://www.ai-geminiomni.com
+  description: Unofficial guides and free prompt generator for Google's Gemini Omni / Omni Flash video model.
+  category: templates-and-example-projects
+  b2_integration: ""
+  last_verified: 2026-10-30
