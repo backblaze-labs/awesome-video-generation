@@ -431,6 +431,18 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: TalkPix
+  url: https://www.talkpix.ai/developers
+  docs_url: https://www.talkpix.ai/developers
+  description: Talking-photo API. Send one portrait plus a script (built-in TTS voices) or your own audio and get a lip-synced MP4 with head motion; async jobs with polling. Also generates product video ads. Remote MCP server for Claude/ChatGPT.
+  category: avatar-and-talking-head-apis
+  github: TalkPix-AI/talkpix-api-examples
+  sdks:
+    - {language: Python, url: https://pypi.org/project/talkpix/}
+    - {language: Node, url: https://www.npmjs.com/package/talkpix}
+  b2_integration: ""
+  last_verified: 2026-11-02
+
 # ---------------- Video Enhancement and Understanding ----------------
 
 - name: Topaz Video AI
