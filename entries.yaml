@@ -431,6 +431,17 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: TalkPix API
+  url: https://www.talkpix.ai/developers
+  docs_url: https://www.talkpix.ai/developers
+  description: REST API that turns one portrait photo plus a script or uploaded audio into a lip-synced talking-photo MP4. Async jobs with webhooks, pay-per-rendered-second credits. Python and Node clients; also a remote MCP server for Claude and ChatGPT.
+  category: avatar-and-talking-head-apis
+  sdks:
+    - {language: Python, url: https://pypi.org/project/talkpix/}
+    - {language: Node, url: https://github.com/TalkPix-AI/talkpix-node}
+  b2_integration: ""
+  last_verified: 2026-11-02
+
 # ---------------- Video Enhancement and Understanding ----------------
 
 - name: Topaz Video AI
