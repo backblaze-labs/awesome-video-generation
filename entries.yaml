@@ -223,6 +223,18 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-10-31
+- name: ImageAT
+  url: https://imageat.com
+  docs_url: https://github.com/incendies/imageat-mcp
+  description: One credit balance and API for text-to-video and image-to-video models (Veo 3.1, Kling 3, Seedance 2.5, Sora 2, Wan 3 and more) plus image generation, voiceovers and narrated explainer assembly, exposed to AI agents through a hosted MCP server and npm package.
+  category: text-to-video-apis
+  github: incendies/imageat-mcp
+  sdks:
+    - {language: Node (MCP), url: https://www.npmjs.com/package/@imageat/mcp}
+  license: MIT
+  tags: [mcp, ai-agents, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-03
 
 # ---------------- Real-Time and Interactive Video ----------------
 
