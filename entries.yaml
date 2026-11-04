@@ -1154,12 +1154,14 @@
   last_verified: 2026-04-18
 
 - name: VidFare
-  url: https://sheepinboots.github.io/clipcost/
-  docs_url: https://sheepinboots.github.io/clipcost/llms.txt
-  description: Per-second price comparison of video generation APIs and credit plans (9 models, 10 platforms), re-checked daily, with source links and a public deals.json.
+  url: https://vidfare.com/
+  docs_url: https://vidfare.com/data/prices.json
+  description: Free tracker of AI video generation cost per second across APIs and credit plans (Veo, Kling, Runway, MiniMax, Wan, Seedance, Grok Imagine and more), re-checked daily against vendor pricing pages, with each price linked to its source. Price catalog is published as JSON. MIT.
   category: evaluation-and-observability
+  github: SheepinBoots/clipcost
+  license: MIT
   b2_integration: ""
-  last_verified: 2026-10-28
+  last_verified: 2026-11-04
 
 # ---------------- Templates and Example Projects ----------------
 
