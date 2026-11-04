@@ -44,6 +44,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Krea](https://www.krea.ai/features/api)** – Unified API for 10+ video models (Veo 3/3.1, Sora 2, Kling 2.6, Wan 2.5, Hailuo 2.3, Runway Gen-4.5, Ray 2, Seedance Pro). Job-based with webhooks. OpenAPI spec, Python/Node/Go examples. [Docs](https://docs.krea.ai) | SDK: Python, Node, Go
 - [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
 - [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
+- [Alors On Danse Video Maker](https://alorsondansevideo.com) - Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok)
+- [Bad Times AI](https://badtimesai.dev) - Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99)
+- [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com) - Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99)
 - **[Leonardo.AI (Motion API)](https://leonardo.ai/api)** – Text-to-video and image-to-video REST API. Supports Motion 2.0, Veo 3, Veo 3 Fast, Kling 2.1/2.5 models. 480p–1080p, 4–8s clips, frame interpolation, style control. [Docs](https://docs.leonardo.ai/reference/createtexttovideogeneration)
 - **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** – High-quality text-to-video with character reference and style reference inputs. Ray 3 is the latest model. [Docs](https://docs.lumalabs.ai/docs/api) | SDK: [Python](https://github.com/lumalabs/lumaai-python), [JS](https://www.npmjs.com/package/lumaai)
 - **[Magic Hour](https://magichour.ai)** – Multi-modal AI video generation API. Text-to-video, image-to-video, style transfer, 4K upscaling. Scales to zero when idle. [Docs](https://docs.magichour.ai)
