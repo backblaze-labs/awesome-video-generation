@@ -183,6 +183,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: SeedanceCheap
+  url: https://seedancecheap.com
+  docs_url: https://seedancecheap.com/api
+  description: REST API for asynchronous video jobs with live model availability, account-scoped request IDs, recovery by request ID, status polling and private result downloads.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-05
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
