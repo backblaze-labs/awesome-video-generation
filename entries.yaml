@@ -961,6 +961,16 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Phosphene
+  url: https://phosphene.video/?utm_source=awesome-video-generation
+  docs_url: https://phosphene.video/docs/
+  description: Free, open-source Mac app that runs LTX-2.5 and optional MiniMax H3 locally on Apple Silicon through MLX, for text-to-video and image-to-video with sound, lip-sync and character LoRA training, with a local HTTP/MCP interface for agents.
+  category: sdks-and-developer-tooling
+  github: mrbizarro/phosphene
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-09
+
 # ---------------- Infrastructure and Deployment ----------------
 
 - name: Lambda Labs
