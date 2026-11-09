@@ -1331,3 +1331,11 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-10-20
+
+- name: KreatorFlow
+  url: https://kreatorflow.ai/seedance-api
+  docs_url: https://developers.kreatorflow.ai
+  description: Seedance 2.0 (plus Fast and Mini) and Seedream through one REST API, with signed webhooks, idempotency keys and prepaid tokens.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-09
