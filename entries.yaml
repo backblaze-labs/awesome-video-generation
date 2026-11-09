@@ -183,6 +183,15 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: UberLLM
+  url: https://uberllm.dev
+  docs_url: https://uberllm.dev/docs/media
+  description: Prepaid API with one POST /v1/video/generations route for text-to-video, first/last-frame image-to-video and reference-image video across models such as Veo 3.1, Kling and Seedance 2.0, on the same key as its text and image models; each job is billed at what its provider charged.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video, openai-compatible]
+  b2_integration: ""
+  last_verified: 2026-11-04
+
 - name: Leonardo.AI (Motion API)
   url: https://leonardo.ai/api
   docs_url: https://docs.leonardo.ai/reference/createtexttovideogeneration
