@@ -192,6 +192,15 @@
   b2_integration: ""
   last_verified: 2026-11-04
 
+- name: Imagera API
+  url: https://imagera.ai/developers
+  docs_url: https://api.imagera.ai/llms.txt
+  description: One API key and prepaid US-dollar balance for 328 image, video and audio models; text-to-video, image-to-video, first/last-frame, reference, extend and upscale jobs (Kling 3.0, Gemini Omni Flash, Grok Imagine Video and more) run via POST /v1/queue/{model}, polled or sent by webhook.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-10
+
 - name: Leonardo.AI (Motion API)
   url: https://leonardo.ai/api
   docs_url: https://docs.leonardo.ai/reference/createtexttovideogeneration
