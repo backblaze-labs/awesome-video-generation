@@ -195,7 +195,7 @@
 - name: Imagera API
   url: https://imagera.ai/developers
   docs_url: https://api.imagera.ai/llms.txt
-  description: One API key and prepaid US-dollar balance for 328 image, video and audio models; text-to-video, image-to-video, first/last-frame, reference-to-video, extend and upscale jobs (Kling 3.0, Gemini Omni Flash, Grok Imagine Video and more) are submitted with POST /v1/queue/{model}, then polled or sent by webhook.
+  description: One API key and prepaid US-dollar balance for 328 image, video and audio models; text-to-video, image-to-video, first/last-frame, reference, extend and upscale jobs (Kling 3.0, Gemini Omni Flash, Grok Imagine Video and more) run via POST /v1/queue/{model}, polled or sent by webhook.
   category: text-to-video-apis
   tags: [aggregator, image-to-video]
   b2_integration: ""
