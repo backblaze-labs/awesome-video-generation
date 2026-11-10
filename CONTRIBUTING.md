@@ -31,9 +31,26 @@ A maintainer will validate your entry, regenerate `README.md` + `llms.txt`, and 
 
 ## Inclusion requirements
 
-- Public product or documentation page; URL resolves.
-- Activity signal within the last 12 months.
-- Either a public API or an open-source install path.
+Every entry is a recommendation to developers, so each one must pass all four checks:
+
+1. **In scope** for this list (see above).
+2. **Usable today:**
+   - the URL resolves;
+   - a dated sign of activity in the last 12 months (release, commit, or dated changelog);
+   - a developer access path: a documented public API or SDK with self-serve signup (paid is fine; waitlists and "contact sales" are not), public source with an install path, or downloadable datasets/weights with a stated license.
+3. **Not already listed.** One entry per product: a vendor's per-model SDKs, or an API plus its MCP server, are one entry. New versions update the existing entry.
+4. **Fits an existing category** in `categories.yaml`.
+
+Self-submissions are welcome and held to the same bar. Low star counts are fine; clear docs matter more.
+
+**We don't accept:** thin resellers of a single model, unofficial access to products that have no official API, consumer apps with no API/CLI/library, guides or directories of other tools (unless this list accepts them above), products whose primary purpose is adult content, and tools built to evade access controls (e.g. CAPTCHA solving) or impersonate real people.
+
+**Writing the entry:**
+- One factual sentence on what it does, ≤300 characters. No marketing adjectives, superlatives ("fastest", "#1"), or pricing/free-tier claims.
+- Canonical URLs only: no `utm_`, referral, or affiliate parameters.
+- `license` is the SPDX id from the repo; `sdks.language` is just the language name.
+- Leave `b2_integration` as `""`; maintainers set it.
+- Add or edit only your own product's entry.
 
 ## Entry format
 
@@ -66,11 +83,11 @@ Every entry is a YAML object in `entries.yaml`. Example:
 | `sdks` |  | Array of `{language, url}`. |
 | `license` |  | SPDX short id. |
 | `tags` |  | Kebab-case tags. For `infrastructure-and-deployment`, common tags are `gpu`, `video-processing`, `storage-delivery`, `playback`. |
-| `b2_integration` |  | URL to docs for the tool's Backblaze B2 integration. Blank if none. |
+| `b2_integration` |  | Maintainers only. Leave as `""`. |
 
 ## What happens after you submit
 
-A maintainer validates the entry against the schema, runs star enrichment, regenerates the README, and merges. If your entry is out of scope or missing information, you'll get feedback on the PR.
+A maintainer checks the entry against the requirements above. Small fixes (formatting, URLs, description length, merge conflicts) are made for you, keeping you as the commit author. If we need information only you have, we'll ask one specific question; if the entry is out of scope, we'll close the PR with the reason.
 
 ## Code of conduct
 
