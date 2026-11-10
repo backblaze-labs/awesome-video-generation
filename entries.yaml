@@ -320,6 +320,14 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Windflow
+  url: https://windflow.online
+  docs_url: https://windflow.online/guides/realtime-video-api
+  description: Persistent-session APIs for controllable video generation, live camera editing and navigable world models over WebRTC or WebSocket. Private beta; approved account and API key required.
+  category: real-time-and-interactive-video
+  b2_integration: ""
+  last_verified: 2026-11-09
+
 # ---------------- Video Style Transfer and Motion ----------------
 
 - name: DomoAI
