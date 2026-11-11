@@ -207,15 +207,6 @@
   b2_integration: ""
   last_verified: 2026-11-04
 
-- name: Imagera API
-  url: https://imagera.ai/developers
-  docs_url: https://api.imagera.ai/llms.txt
-  description: Unified async API for image, video and audio models behind one key. Text-to-video, image-to-video, first/last-frame, extend and upscale jobs via POST /v1/queue/{model}, with polling or webhooks, an OpenAPI spec and an MCP server.
-  category: text-to-video-apis
-  tags: [aggregator, image-to-video]
-  b2_integration: ""
-  last_verified: 2026-11-10
-
 - name: Leonardo.AI (Motion API)
   url: https://leonardo.ai/api
   docs_url: https://docs.leonardo.ai/reference/createtexttovideogeneration
