@@ -1339,3 +1339,14 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-11-09
+
+- name: HoneyVid
+  url: https://honeyvid.ai
+  docs_url: https://honeyvid.ai/mcp
+  description: Video app with an MIT-licensed CLI (npx honeyvid, --json output) and a hosted OAuth MCP server that let coding agents put a person, pet or character from one photo into trending video templates, or generate videos and images with Kling, Veo and Seedance.
+  category: sdks-and-developer-tooling
+  github: HoneyVid/cli
+  license: MIT
+  tags: [cli, mcp, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-11
