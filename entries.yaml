@@ -1451,3 +1451,14 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-09-27
+
+- name: HoneyVid
+  url: https://honeyvid.ai
+  docs_url: https://honeyvid.ai/mcp
+  description: MIT-licensed CLI (npx honeyvid, --json output) and hosted OAuth MCP server for coding agents to generate videos and images from template workflows or with Kling, Veo and Seedance.
+  category: sdks-and-developer-tooling
+  github: HoneyVid/cli
+  license: MIT
+  tags: [cli, mcp, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-11
