@@ -17,7 +17,11 @@
   - docs: https://hop-base.com/en/docs/media/video
 - [ImageAT](https://imageat.com): One credit balance and API for text-to-video and image-to-video models (Veo 3.1, Kling 3, Seedance 2.5, Sora 2, Wan 3 and more) plus image generation, voiceovers and narrated explainer assembly, exposed to AI agents through a hosted MCP server and npm package.
   - docs: https://github.com/incendies/imageat-mcp
+- [Imagera API](https://imagera.ai/developers): Unified async API for image, video and audio models behind one key. Text-to-video, image-to-video, first/last-frame, extend and upscale jobs via POST /v1/queue/{model}, with polling or webhooks, an OpenAPI spec and an MCP server.
+  - docs: https://api.imagera.ai/llms.txt
 - [InVideo AI](https://invideo.io): Turns text prompts into full videos using Sora 2 and Veo 3.1 as underlying models. OpenAI's first official Sora 2 integration partner. 50M+ users.
+- [Katechon Arc](https://arc.katechon.technology): AI short-drama and video-ad studio with a remote MCP server (Streamable HTTP, personal API key, 38 tools) that lets agents create projects from an idea, script or novel and drive characters, storyboards, video generation and voiceover.
+  - docs: https://arc.katechon.technology/developers/mcp
 - [Kling AI](https://klingai.com): Text-to-video and image-to-video from Kuaishou. Up to 30s clips at 1080p/30fps. Async task-based API. Also on fal.ai.
   - docs: https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview
 - [Krea](https://www.krea.ai/features/api): Unified API for 10+ video models (Veo 3/3.1, Sora 2, Kling 2.6, Wan 2.5, Hailuo 2.3, Runway Gen-4.5, Ray 2, Seedance Pro). Job-based with webhooks. OpenAPI spec, Python/Node/Go examples.
@@ -28,7 +32,7 @@
   - docs: https://docs.leonardo.ai/reference/createtexttovideogeneration
 - [Luma Dream Machine](https://lumalabs.ai/dream-machine): High-quality text-to-video with character reference and style reference inputs. Ray 3 is the latest model.
   - docs: https://docs.lumalabs.ai/docs/api
-- [Magic Hour](https://magichour.ai): Multi-modal AI video generation API. Text-to-video, image-to-video, style transfer, 4K upscaling. Scales to zero when idle.
+- [Magic Hour](https://magichour.ai): REST API for text-to-video, image-to-video, face swap, lip sync, video translation, and video-to-video workflows.
   - docs: https://docs.magichour.ai
 - [MakeAIVideo](https://makeaivideo.ai/developers): Prompt or script to a finished short video (script, AI or stock scenes, AI voiceover in 24 languages, captions, music) via a REST API with webhooks. Also a hosted MCP server and CLI. Paid plans with a 7-day free trial.
   - docs: https://makeaivideo.ai/docs/api
@@ -51,6 +55,8 @@
   - docs: https://seedancecheap.com/api
 - [UberLLM](https://uberllm.dev): Prepaid API with one POST /v1/video/generations route for text-to-video, first/last-frame image-to-video and reference-image video across models such as Veo 3.1, Kling and Seedance 2.0, on the same key as its text and image models; each job is billed at what its provider charged.
   - docs: https://uberllm.dev/docs/media
+- [VideoGen](https://videogen.io/videogen-api): REST API and SDKs for script-to-video, voiceover and slideshow-to-video workflows that return finished MP4s with visuals, narration and captions.
+  - docs: https://docs.videogen.io
 - [Vidu (Shengshu Technology)](https://www.shengshu.com/en/vidu): Now on Vidu Q3, the first long-form AI video model with native audio-video generation in a single output. Ranked
 - [Wan 2.7 (Alibaba)](https://fal.ai/wan-2.7): Commercial successor to open-weight Wan 2.2. Native 1080p, 2–15s clips, first-and-last-frame control, up to 5 reference inputs, instruction-based video editing. Via DashScope and fal.ai at $0.10/sec.
   - docs: https://help.aliyun.com/zh/model-studio/wanx-video-generation
@@ -202,6 +208,8 @@
   - docs: https://docs.fal.ai
 - [Luma AI SDK](https://github.com/lumalabs/lumaai-python): Sync and async clients for all Dream Machine generation modes.
   - docs: https://docs.lumalabs.ai/docs/javascript
+- [Avatar Video Workbench](https://github.com/IaMarric/avatar-video-workbench): Open-source CLI/control plane for reproducible avatar LoRA and image-to-video experiments, with Vertex job staging, LTX run metadata, sanitized reports, and publication safety scans.
+  - docs: https://github.com/IaMarric/avatar-video-workbench/tree/main/docs
 - [Creatomate](https://creatomate.com): Cloud video rendering API for generating data-driven videos from JSON templates. REST API with Node.js, PHP, and Python SDKs. Scales automatically; free trial available.
   - docs: https://creatomate.com/docs/api/introduction
 - [FastVideo](https://github.com/hao-ai-lab/FastVideo): Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs.
@@ -209,7 +217,7 @@
 - [HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK): TypeScript SDK for real-time WebRTC interactive avatar sessions.
 - [LTX Desktop](https://github.com/Lightricks/LTX-Desktop): Open-source nonlinear video editor with on-device AI generation (text-to-video, image-to-video, audio-to-video, retake). Runs locally on Windows/Linux with NVIDIA GPUs; API mode for macOS. Built on LTX-2.3. v1.0.5 released Apr 2026.
   - docs: https://docs.ltx.video/open-source-model/getting-started/quick-start
-- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): MIT-licensed CLI and MCP toolkit for coding agents to compose, edit and generate videos from editable timelines.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Local-first TypeScript CLI and MCP toolkit that lets coding agents compose, edit, generate, and assemble videos from editable plan.json timelines.
 - [rCM (NVIDIA Labs)](https://github.com/NVlabs/rcm): ICLR 2026. JVP-based continuous-time consistency distillation for 10B+ video diffusion models (Wan2.1, Cosmos-Predict2). Generates high-quality videos in 2–4 steps, 15–50x faster than full diffusion. FlashAttention-2 JVP kernel open-sourced.
 - [Remotion](https://www.remotion.dev): React framework for programmatic video generation. Define videos as React components, render server-side via CLI or Lambda (AWS). TypeScript-first; supports any CSS, Canvas, SVG, WebGL.
   - docs: https://www.remotion.dev/docs
@@ -273,6 +281,7 @@
   - docs: https://vercel.com/templates/next.js/fal-video-generator
 - [B2 Video Object Detection with Transformers](https://github.com/backblaze-b2-samples/b2-transformers-video-object-detection): Video object detection pipeline using HuggingFace Transformers with Backblaze B2 cloud storage integration.
   - b2 integration: https://github.com/backblaze-b2-samples/b2-transformers-video-object-detection
+- [BrewReel](https://github.com/Finderchangchang/brewreel): Open-source agent skill that turns a product brief into a 1080x1920 vertical promo video; a low-cost LLM such as DeepSeek picks shots and writes copy, and Remotion renders the result.
 - [Google Gemini Streamlit + Cloud Run](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/gemini-streamlit-cloudrun): Sample app using Gemini multimodal with Streamlit, deployable to Cloud Run.
 - [HeyGen Streaming Avatar Demo](https://github.com/HeyGen-Official/StreamingAvatarTSDemo): Next.js/TypeScript starter for real-time WebRTC avatar sessions.
 - [OpenMontage](https://github.com/calesthio/OpenMontage): Agentic video production system with 12 pipelines and 50+ tools. Orchestrates research, scripting, asset generation, editing, and render end-to-end. Works with Claude Code, Cursor, Copilot; pip install; free local-only mode via Piper TTS and open stock archives. AGPL-3.0.
@@ -284,3 +293,5 @@
   - docs: https://powertokens.github.io/video-studio-web/
 - [Stability AI SVD Streamlit Demo](https://github.com/Stability-AI/generative-models/tree/main/scripts/demo): Streamlit demo scripts for Stable Video Diffusion.
 - [ViMax](https://github.com/HKUDS/ViMax): Multi-agent agentic video generation framework (Director, Screenwriter, Producer all-in-one). Orchestrates 12 specialized agents for end-to-end script-to-video with character and scene consistency. uv install; supports Gemini, MiniMax, and Veo 2 backends. MIT license.
+- [YumCut](https://github.com/IgorShadurin/app.yumcut.com): Source-available, self-hosted short-video workflow that generates scripts, voiceovers, visuals, captions, and finished 9:16 videos. Includes a bearer-key API for project automation and media downloads.
+  - docs: https://app.yumcut.com/api/user/v1/docs
