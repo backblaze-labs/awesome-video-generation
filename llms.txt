@@ -17,8 +17,6 @@
   - docs: https://hop-base.com/en/docs/media/video
 - [ImageAT](https://imageat.com): One credit balance and API for text-to-video and image-to-video models (Veo 3.1, Kling 3, Seedance 2.5, Sora 2, Wan 3 and more) plus image generation, voiceovers and narrated explainer assembly, exposed to AI agents through a hosted MCP server and npm package.
   - docs: https://github.com/incendies/imageat-mcp
-- [Imagera API](https://imagera.ai/developers): Unified async API for image, video and audio models behind one key. Text-to-video, image-to-video, first/last-frame, extend and upscale jobs via POST /v1/queue/{model}, with polling or webhooks, an OpenAPI spec and an MCP server.
-  - docs: https://api.imagera.ai/llms.txt
 - [InVideo AI](https://invideo.io): Turns text prompts into full videos using Sora 2 and Veo 3.1 as underlying models. OpenAI's first official Sora 2 integration partner. 50M+ users.
 - [Katechon Arc](https://arc.katechon.technology): AI short-drama and video-ad studio with a remote MCP server (Streamable HTTP, personal API key, 38 tools) that lets agents create projects from an idea, script or novel and drive characters, storyboards, video generation and voiceover.
   - docs: https://arc.katechon.technology/developers/mcp
