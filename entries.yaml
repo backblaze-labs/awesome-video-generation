@@ -1361,12 +1361,12 @@
 - name: PowerTokens Video Studio
   url: https://github.com/PowerTokens/video-studio
   docs_url: https://powertokens.github.io/video-studio-web/
-  description: Free MIT Windows desktop + web client for batch/compare text-to-video across Wan, Seedance, Kling, and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
+  description: Free MIT Video Studio 1.17 (Windows, unsigned Apple Silicon Mac Beta, and web) for chat, batch, and compare text-to-video across Wan, Seedance, Kling, and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
   category: templates-and-example-projects
   github: PowerTokens/video-studio
   license: MIT
   b2_integration: ""
-  last_verified: 2026-10-20
+  last_verified: 2026-11-12
 
 - name: KreatorFlow
   url: https://kreatorflow.ai/seedance-api
