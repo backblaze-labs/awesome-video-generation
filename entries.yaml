@@ -1240,6 +1240,19 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: CloudGPU
+  url: https://cloudgpu.app
+  docs_url: https://cloudgpu.app/docs
+  description: GPU rental marketplace with SSH, Jupyter and ComfyUI access, a REST API and an MCP server for creating instances and Jobs, plus step-by-step guides for running open video models such as HunyuanVideo, LTX-Video and FramePack.
+  category: infrastructure-and-deployment
+  github: cloudgpu-app/cloudgpu-mcp
+  sdks:
+    - {language: Node (MCP), url: https://www.npmjs.com/package/cloudgpu-mcp}
+  license: MIT
+  tags: [gpu, mcp]
+  b2_integration: ""
+  last_verified: 2026-11-12
+
 # ---------------- Evaluation and Observability ----------------
 
 - name: VBench / VBench-2.0
