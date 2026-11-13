@@ -985,6 +985,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Vidmoat
+  url: https://www.vidmoat.com
+  docs_url: https://developer.vidmoat.com/developer/docs/api
+  description: Hosted video editing API on the same engine as the Vidmoat web editor. REST endpoints (OpenAPI 3.1) and a remote MCP server import footage, edit a multi-track timeline, and render MP4s.
+  category: sdks-and-developer-tooling
+  tags:
+    - video-editing
+    - rest-api
+    - mcp
+  b2_integration: ""
+  last_verified: 2026-11-13
+
 - name: FastVideo
   url: https://github.com/hao-ai-lab/FastVideo
   docs_url: https://hao-ai-lab.github.io/FastVideo/
