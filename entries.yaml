@@ -265,6 +265,15 @@
   b2_integration: ""
   last_verified: 2026-10-18
 
+- name: Cuddler API
+  url: https://platform.cuddler.ai
+  docs_url: https://platform.cuddler.ai/docs
+  description: Developer API for video generation across multiple models, supporting text-to-video, image-to-video, reference inputs, editing and native audio according to the selected model.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video, open-api]
+  b2_integration: ""
+  last_verified: 2026-11-13
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
