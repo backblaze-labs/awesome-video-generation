@@ -268,7 +268,7 @@
 - name: Cuddler API
   url: https://platform.cuddler.ai
   docs_url: https://platform.cuddler.ai/docs
-  description: Unified API for video generation across multiple models, with text-to-video, image-to-video, reference and edit modes, native audio, and a self-serve developer platform.
+  description: Developer API for video generation across multiple models, supporting text-to-video, image-to-video, reference inputs, editing and native audio according to the selected model.
   category: text-to-video-apis
   tags: [aggregator, image-to-video, open-api]
   b2_integration: ""
