@@ -1242,6 +1242,15 @@
 
 # ---------------- Evaluation and Observability ----------------
 
+- name: Valmera AI Video Editing Revision Test
+  url: https://www.kaggle.com/datasets/valmera/ai-video-editing-revision-test
+  docs_url: https://github.com/ABO3SKRALMASAOODI/valmera-mcp/tree/main/docs/examples/video-edit-revision
+  description: Compares an exported MP4 against two edit decisions on the same timecoded source to check whether shortening the middle shot moved the next cut to the requested frame.
+  category: evaluation-and-observability
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-16
+
 - name: VBench / VBench-2.0
   url: https://github.com/Vchitect/VBench
   docs_url: https://huggingface.co/spaces/Vchitect/VBench_Leaderboard
