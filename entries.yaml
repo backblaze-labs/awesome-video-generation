@@ -39,6 +39,19 @@
   b2_integration: ""
   last_verified: 2026-10-06
 
+- name: PopNow
+  url: https://popnow.ai/api
+  docs_url: https://popnow.ai/docs
+  description: Unified REST API, SDKs and MCP server for text-to-video and image-to-video across hosted models, using asynchronous tasks.
+  category: text-to-video-apis
+  github: popnow-ai/popnow-api
+  license: MIT
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/popnow}
+    - {language: Python, url: https://pypi.org/project/popnow/}
+  b2_integration: ""
+  last_verified: 2026-11-14
+
 - name: Runway (Gen-4)
   url: https://runwayml.com/api
   docs_url: https://docs.dev.runwayml.com
