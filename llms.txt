@@ -6,6 +6,8 @@
 
 - [Stability AI (SVD)](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt): Image-to-video via Stable Video Diffusion. Hosted API deprecated July 2025; open weights available for self-hosting.
   - docs: https://github.com/Stability-AI/generative-models
+- [Cuddler API](https://platform.cuddler.ai): Developer API for video generation across multiple models, supporting text-to-video, image-to-video, reference inputs, editing and native audio according to the selected model.
+  - docs: https://platform.cuddler.ai/docs
 - [Fliki](https://fliki.ai): Text-to-video and text-to-speech platform. Enterprise API with 2,500+ voices in 80+ languages.
   - docs: https://developer.fliki.ai
 - [Google Veo 2 / Veo 3](https://deepmind.google/technologies/veo/): Google's video generation models via Vertex AI and Gemini API. Veo 2 is GA; Veo 3 in paid preview.
@@ -43,8 +45,12 @@
   - docs: https://platform.openai.com/docs/api-reference/videos
 - [Pika (v2.2)](https://pika.art/api): Text-to-video and image-to-video with Pikaframes multi-keyframe interpolation. API powered by fal.ai.
   - docs: https://fal.ai/models/fal-ai/pika/v2.2/text-to-video/api
+- [PopNow](https://popnow.ai/api): Unified REST API, SDKs and MCP server for text-to-video and image-to-video across hosted models, using asynchronous tasks.
+  - docs: https://popnow.ai/docs
 - [Revana](https://revana.si): Pay-as-you-go REST API for 120+ video and image models (Seedance 2.5, Veo 3.1, Kling, Wan, Nano Banana) behind one key. Routes each job to the cheapest working provider with automatic fallback; failed generations are not charged. Also an MCP server.
   - docs: https://revana.si/docs
+- [RunAPI](https://runapi.ai): Unified API and client SDKs for video generation models including Kling, Seedance and Veo, with text-to-video, image-to-video, extension and upscale jobs.
+  - docs: https://runapi.ai/models/kling
 - [Runway (Gen-4)](https://runwayml.com/api): Text-to-video and image-to-video with Gen-4 Turbo. Async task-based REST API with polling helpers.
   - docs: https://docs.dev.runwayml.com
 - [Seedance 2.0 (ByteDance)](https://seed.bytedance.com/en/seedance2_0): Dual-Branch Diffusion Transformer for simultaneous video + audio generation. Up to 15s at 2K resolution. Available via Dreamina.
@@ -213,18 +219,24 @@
 - [FastVideo](https://github.com/hao-ai-lab/FastVideo): Unified post-training and inference framework for accelerating video diffusion models. pip install fastvideo. Supports Wan2.1/2.2 distillation; 3x speedup via SageAttention and Teacache. Scales to 64 GPUs.
   - docs: https://hao-ai-lab.github.io/FastVideo/
 - [HeyGen Streaming Avatar SDK](https://github.com/HeyGen-Official/StreamingAvatarSDK): TypeScript SDK for real-time WebRTC interactive avatar sessions.
+- [HoneyVid](https://honeyvid.ai): MIT-licensed CLI (npx honeyvid, --json output) and hosted OAuth MCP server for coding agents to generate videos and images from template workflows or with Kling, Veo and Seedance.
+  - docs: https://honeyvid.ai/mcp
 - [LTX Desktop](https://github.com/Lightricks/LTX-Desktop): Open-source nonlinear video editor with on-device AI generation (text-to-video, image-to-video, audio-to-video, retake). Runs locally on Windows/Linux with NVIDIA GPUs; API mode for macOS. Built on LTX-2.3. v1.0.5 released Apr 2026.
   - docs: https://docs.ltx.video/open-source-model/getting-started/quick-start
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Local-first TypeScript CLI and MCP toolkit that lets coding agents compose, edit, generate, and assemble videos from editable plan.json timelines.
 - [rCM (NVIDIA Labs)](https://github.com/NVlabs/rcm): ICLR 2026. JVP-based continuous-time consistency distillation for 10B+ video diffusion models (Wan2.1, Cosmos-Predict2). Generates high-quality videos in 2–4 steps, 15–50x faster than full diffusion. FlashAttention-2 JVP kernel open-sourced.
 - [Remotion](https://www.remotion.dev): React framework for programmatic video generation. Define videos as React components, render server-side via CLI or Lambda (AWS). TypeScript-first; supports any CSS, Canvas, SVG, WebGL.
   - docs: https://www.remotion.dev/docs
+- [Rendobar](https://rendobar.com): Serverless media processing API for developers and AI agents. One endpoint covering FFmpeg commands, animated and burned-in captions, watermarking, transcoding, and metadata extraction. MCP-native, with a Node SDK and CLI.
+  - docs: https://rendobar.com/docs
 - [Runway SDK](https://docs.dev.runwayml.com/api-details/sdks/): Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
 - [Shotstack](https://shotstack.io): Cloud video editing API. Render data-driven and AI-generated videos at scale via JSON templates. Node, Python, PHP, and Ruby SDKs.
   - docs: https://shotstack.io/docs/guide/getting-started/core-concepts/
 - [TalkingHead (met4citizen)](https://github.com/met4citizen/TalkingHead): JavaScript class for real-time 3D avatar lip-sync. Full-body RPM/VRM avatars driven by TTS audio. Integrates ElevenLabs, OpenAI, Google TTS, and Azure. Installable via npm; CDN import also supported. MIT license; v1.7.0 released Dec 2025.
   - docs: https://met4citizen.github.io/TalkingHead/
 - [TurboDiffusion](https://github.com/thu-ml/TurboDiffusion): Inference acceleration framework for video diffusion models. Combines SageAttention, Sparse-Linear Attention, and rCM timestep distillation for 100–200x speedup. Supports TurboWan 2.1/2.2 T2V and I2V at 480p/720p. pip install + CLI inference.
+- [Vidmoat](https://www.vidmoat.com): Hosted video editing API on the same engine as the Vidmoat web editor. REST endpoints (OpenAPI 3.1) and a remote MCP server import footage, edit a multi-track timeline, and render MP4s.
+  - docs: https://developer.vidmoat.com/developer/docs/api
 - [Wan2GP](https://github.com/deepbeepmeep/Wan2GP): Low-VRAM inference GUI and server for Wan 2.1/2.2, HunyuanVideo, LTX-Video, and Flux. Runs on 6 GB VRAM via int8/fp8/GGUF/NV FP4 quantization. Supports AMD RDNA and older Nvidia GPUs. Gradio web UI with mask editor and motion designer. Custom community license; free for non-commercial use.
 
 ## Infrastructure and Deployment
@@ -238,6 +250,8 @@
   - b2 integration: https://www.backblaze.com/docs/cloud-storage-s3-compatible-api
 - [Cloudflare Stream](https://www.cloudflare.com/developer-platform/products/cloudflare-stream/): Video upload, encoding, and CDN delivery billed per minute watched. Live streaming via RTMP/SRT.
   - docs: https://developers.cloudflare.com/stream/
+- [CloudGPU](https://cloudgpu.app): GPU rental marketplace with SSH, Jupyter and ComfyUI access, a REST API and an MCP server for creating instances and jobs.
+  - docs: https://cloudgpu.app/docs
 - [CoreWeave](https://www.coreweave.com): Kubernetes-native AI cloud with enterprise-scale GPU infrastructure.
 - [fal.ai](https://fal.ai): Serverless inference for generative media. 600+ models. Python, JS, Swift SDKs.
   - docs: https://docs.fal.ai
@@ -272,6 +286,8 @@
   - docs: https://video-bench.github.io/
 - [VideoScore2](https://github.com/TIGER-AI-Lab/VideoScore2): Open-source evaluator for generated videos across visual quality, text-video alignment, and physical/common-sense consistency, with a single-video inference script.
   - docs: https://tiger-ai-lab.github.io/VideoScore2/
+- [VidFare](https://vidfare.com/): AI video generation cost-per-second tracker across vendor APIs and credit plans, with each price linked to its source. Price catalog is published as JSON and via a read-only MCP server.
+  - docs: https://vidfare.com/data/prices.json
 
 ## Templates and Example Projects
 
@@ -287,7 +303,7 @@
   - docs: https://phosphene.video/docs/
 - [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video): Fully-automated short video pipeline. Input a topic; the tool writes the script, generates AI images via ComfyUI, synthesizes voice (Edge-TTS/Index-TTS), adds music, and outputs a finished video. Supports GPT, Qwen, DeepSeek, and Ollama. Apache-2.0; v0.1.15 released Jan 2026.
   - docs: https://aidc-ai.github.io/Pixelle-Video/
-- [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio): Free MIT Windows desktop + web client for batch/compare text-to-video across Wan, Seedance, Kling, and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
+- [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio): MIT desktop (Windows, Apple Silicon Mac beta) and web client for chat, AI shot planning, and batch or compare text-to-video across Wan, Seedance, Kling and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
   - docs: https://powertokens.github.io/video-studio-web/
 - [Stability AI SVD Streamlit Demo](https://github.com/Stability-AI/generative-models/tree/main/scripts/demo): Streamlit demo scripts for Stable Video Diffusion.
 - [ViMax](https://github.com/HKUDS/ViMax): Multi-agent agentic video generation framework (Director, Screenwriter, Producer all-in-one). Orchestrates 12 specialized agents for end-to-end script-to-video with character and scene consistency. uv install; supports Gemini, MiniMax, and Veo 2 backends. MIT license.
