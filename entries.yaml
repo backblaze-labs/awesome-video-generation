@@ -69,7 +69,7 @@
   description: Google's video generation models via Vertex AI and Gemini API. Veo 2 is GA; Veo 3 in paid preview.
   category: text-to-video-apis
   sdks:
-    - {language: Google Cloud Python}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -79,8 +79,8 @@
   description: Text-to-video and image-to-video with Pikaframes multi-keyframe interpolation. API powered by fal.ai.
   category: text-to-video-apis
   sdks:
-    - {language: fal Python}
-    - {language: fal JS}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -91,7 +91,7 @@
   category: text-to-video-apis
   sdks:
     - {language: Python, url: https://github.com/lumalabs/lumaai-python}
-    - {language: JS, url: https://www.npmjs.com/package/lumaai}
+    - {language: JavaScript, url: https://www.npmjs.com/package/lumaai}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -258,7 +258,7 @@
   category: text-to-video-apis
   github: incendies/imageat-mcp
   sdks:
-    - {language: Node (MCP), url: https://www.npmjs.com/package/@imageat/mcp}
+    - {language: Node, url: https://www.npmjs.com/package/@imageat/mcp}
   license: MIT
   tags: [mcp, ai-agents, image-to-video]
   b2_integration: ""
@@ -434,7 +434,7 @@
   description: AI avatar video generation and real-time streaming avatars via WebRTC. Template-based workflows.
   category: avatar-and-talking-head-apis
   sdks:
-    - {language: JS/TS, url: https://github.com/HeyGen-Official/StreamingAvatarSDK}
+    - {language: TypeScript, url: https://github.com/HeyGen-Official/StreamingAvatarSDK}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -914,7 +914,7 @@
   category: sdks-and-developer-tooling
   github: replicate/replicate-python
   sdks:
-    - {language: Python (pip install replicate)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -925,8 +925,8 @@
   category: sdks-and-developer-tooling
   github: fal-ai/fal-js
   sdks:
-    - {language: Python (pip install fal-client)}
-    - {language: Node (npm install @fal-ai/client)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -935,8 +935,8 @@
   description: Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
   category: sdks-and-developer-tooling
   sdks:
-    - {language: Python (pip install runwayml)}
-    - {language: Node (npm install @runwayml/sdk)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -962,7 +962,7 @@
   category: sdks-and-developer-tooling
   github: lumalabs/lumaai-python
   sdks:
-    - {language: Python (pip install lumaai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -972,7 +972,7 @@
   category: sdks-and-developer-tooling
   github: HeyGen-Official/StreamingAvatarSDK
   sdks:
-    - {language: TypeScript (npm install @heygen/streaming-avatar)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -1005,7 +1005,7 @@
   category: sdks-and-developer-tooling
   github: huggingface/diffusers
   sdks:
-    - {language: Python (pip install diffusers)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
