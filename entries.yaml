@@ -1454,6 +1454,19 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-11-09
+- name: i2v.ai
+  url: https://i2v.ai
+  docs_url: https://i2v.ai/docs/api
+  description: Unified REST API for image and video generation across 12 image and 16 video models, including text-to-video and image-to-video. Each paid task returns a USD quote before submission and accepts a per-task spending cap.
+  category: text-to-video-apis
+  github: i2v-ai/i2v-mcp
+  license: MIT
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@i2v-ai/sdk}
+    - {language: Python, url: https://pypi.org/project/i2v-ai/}
+  b2_integration: ""
+  last_verified: 2026-11-22
+
 - name: YumCut
   url: https://github.com/IgorShadurin/app.yumcut.com
   docs_url: https://app.yumcut.com/api/user/v1/docs
