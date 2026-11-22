@@ -1486,3 +1486,14 @@
   tags: [cli, mcp, image-to-video]
   b2_integration: ""
   last_verified: 2026-11-11
+
+- name: Turbogen
+  url: https://turbogen.app
+  docs_url: https://turbogen.app/api-docs
+  description: REST API with webhooks, a Python MCP server and an n8n node for text-to-video and image-to-video with Seedance, Kling, Veo 3.1 and Grok Imagine, plus Nano Banana Pro images, under one API key.
+  category: text-to-video-apis
+  github: turbogenai/turbogen-mcp
+  license: MIT
+  tags: [mcp, n8n, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-22
