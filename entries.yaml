@@ -96,12 +96,12 @@
   last_verified: 2026-03-01
 
 - name: Kling AI
-  url: https://klingai.com
-  docs_url: https://app.klingai.com/global/dev/document-api/quickStart/productIntroduction/overview
-  description: Text-to-video and image-to-video from Kuaishou. Up to 30s clips at 1080p/30fps. Async task-based API. Also on fal.ai.
+  url: https://kling.ai/dev/api
+  docs_url: https://kling.ai/document-api/api/video/4-0
+  description: Kuaishou's asynchronous text-to-video, image-to-video, and multimodal reference video API, with Kling 4.0 output up to 30 seconds and 4K resolution.
   category: text-to-video-apis
   b2_integration: ""
-  last_verified: 2026-03-01
+  last_verified: 2026-11-22
 
 - name: MiniMax / Hailuo
   url: https://www.minimax.io
