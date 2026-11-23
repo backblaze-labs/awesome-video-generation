@@ -1486,3 +1486,12 @@
   tags: [cli, mcp, image-to-video]
   b2_integration: ""
   last_verified: 2026-11-11
+
+- name: PennyCompute
+  url: https://pennycompute.com
+  docs_url: https://pennycompute.com/docs
+  description: Prepaid pay-per-job API for FFmpeg transcode, stitch, caption burn and audio mix, plus Remotion rendering and limited/early MiniMax H3 image-to-video.
+  category: infrastructure-and-deployment
+  tags: [video-processing]
+  b2_integration: ""
+  last_verified: 2026-11-22
