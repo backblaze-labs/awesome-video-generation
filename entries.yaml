@@ -1144,6 +1144,19 @@
   b2_integration: ""
   last_verified: 2026-06-15
 
+- name: HyperFrames
+  url: https://github.com/heygen-com/hyperframes
+  docs_url: https://hyperframes.heygen.com/introduction
+  description: "Open-source AI video editor and HTML-to-video framework: coding agents create, edit and remake videos (launch videos, explainers, captions on existing footage) as HTML, CSS and GSAP, rendered to deterministic MP4 in headless Chrome with FFmpeg, locally, in Docker or on AWS Lambda."
+  category: sdks-and-developer-tooling
+  github: heygen-com/hyperframes
+  license: Apache-2.0
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/hyperframes}
+  tags: [cli, html-to-video, agent-skills]
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Infrastructure and Deployment ----------------
 
 - name: Lambda Labs
