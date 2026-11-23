@@ -287,6 +287,14 @@
   b2_integration: ""
   last_verified: 2026-11-13
 
+- name: Modelflare
+  url: https://modelflare.dev/
+  docs_url: https://docs.modelflare.dev/models/video/
+  description: API gateway for async text-to-video and image-to-video via POST /v1/videos, with family-specific request contracts for Seedance, Wan, Kling, MiniMax and HappyHorse.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
