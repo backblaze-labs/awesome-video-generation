@@ -5,6 +5,21 @@
 
 # ---------------- Text-to-Video APIs ----------------
 
+
+
+- name: VideoGen
+  url: https://videogen.io/videogen-api
+  docs_url: https://docs.videogen.io
+  description: REST API and SDKs for script-to-video, voiceover and slideshow-to-video workflows that return finished MP4s with visuals, narration and captions.
+  category: text-to-video-apis
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@videogen/sdk}
+    - {language: Python, url: https://pypi.org/project/videogen/}
+  b2_integration: ""
+  last_verified: 2026-09-29
+
+
+
 - name: OpenAI Sora
   url: https://openai.com/sora
   docs_url: https://platform.openai.com/docs/api-reference/videos
@@ -15,6 +30,27 @@
     - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: Muapi
+  url: https://muapi.ai
+  docs_url: https://muapi.ai/docs/video-generation
+  description: Hosted API for generating video from text prompts or image inputs, with model-specific request schemas and asynchronous results.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-06
+
+- name: PopNow
+  url: https://popnow.ai/api
+  docs_url: https://popnow.ai/docs
+  description: Unified REST API, SDKs and MCP server for text-to-video and image-to-video across hosted models, using asynchronous tasks.
+  category: text-to-video-apis
+  github: popnow-ai/popnow-api
+  license: MIT
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/popnow}
+    - {language: Python, url: https://pypi.org/project/popnow/}
+  b2_integration: ""
+  last_verified: 2026-11-14
 
 - name: Runway (Gen-4)
   url: https://runwayml.com/api
@@ -33,7 +69,7 @@
   description: Google's video generation models via Vertex AI and Gemini API. Veo 2 is GA; Veo 3 in paid preview.
   category: text-to-video-apis
   sdks:
-    - {language: Google Cloud Python}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -43,8 +79,8 @@
   description: Text-to-video and image-to-video with Pikaframes multi-keyframe interpolation. API powered by fal.ai.
   category: text-to-video-apis
   sdks:
-    - {language: fal Python}
-    - {language: fal JS}
+    - {language: Python}
+    - {language: JavaScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -55,7 +91,7 @@
   category: text-to-video-apis
   sdks:
     - {language: Python, url: https://github.com/lumalabs/lumaai-python}
-    - {language: JS, url: https://www.npmjs.com/package/lumaai}
+    - {language: JavaScript, url: https://www.npmjs.com/package/lumaai}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -120,10 +156,10 @@
 - name: Magic Hour
   url: https://magichour.ai
   docs_url: https://docs.magichour.ai
-  description: Multi-modal AI video generation API. Text-to-video, image-to-video, style transfer, 4K upscaling. Scales to zero when idle.
+  description: REST API for text-to-video, image-to-video, face swap, lip sync, video translation, and video-to-video workflows.
   category: text-to-video-apis
   b2_integration: ""
-  last_verified: 2026-03-01
+  last_verified: 2026-09-03
 
 - name: InVideo AI
   url: https://invideo.io
@@ -175,6 +211,15 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: UberLLM
+  url: https://uberllm.dev
+  docs_url: https://uberllm.dev/docs/media
+  description: Prepaid API with one POST /v1/video/generations route for text-to-video, first/last-frame image-to-video and reference-image video across models such as Veo 3.1, Kling and Seedance 2.0, on the same key as its text and image models; each job is billed at what its provider charged.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video, openai-compatible]
+  b2_integration: ""
+  last_verified: 2026-11-04
+
 - name: Leonardo.AI (Motion API)
   url: https://leonardo.ai/api
   docs_url: https://docs.leonardo.ai/reference/createtexttovideogeneration
@@ -183,13 +228,72 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
-- name: Castaly
-  url: https://castaly.modelflare.dev/
-  docs_url: https://docs.modelflare.dev/models/video/
-  description: Web studio for AI video and image generation with Seedance, Kling, Wan and MiniMax models. Compares model specs and per-generation prices side by side; pay-as-you-go, no subscription. The same models are available via the Modelflare API gateway (async video endpoints).
+- name: MakeAIVideo
+  url: https://makeaivideo.ai/developers
+  docs_url: https://makeaivideo.ai/docs/api
+  description: Prompt or script to a finished short video (script, AI or stock scenes, AI voiceover in 24 languages, captions, music) via a REST API with webhooks. Also a hosted MCP server and CLI. Paid plans with a 7-day free trial.
+  category: text-to-video-apis
+  sdks:
+    - {language: TypeScript, url: https://github.com/makeaivideo-ai/sdk}
+  b2_integration: ""
+  last_verified: 2026-10-07
+- name: Revana
+  url: https://revana.si
+  docs_url: https://revana.si/docs
+  description: Pay-as-you-go REST API for 120+ video and image models (Seedance 2.5, Veo 3.1, Kling, Wan, Nano Banana) behind one key. Routes each job to the cheapest working provider with automatic fallback; failed generations are not charged. Also an MCP server.
   category: text-to-video-apis
   b2_integration: ""
-  last_verified: 2026-10-20
+  last_verified: 2026-10-28
+- name: HopBase
+  url: https://hop-base.com
+  docs_url: https://hop-base.com/en/docs/media/video
+  description: One API key for Seedance, Kling, MiniMax Hailuo, Wan, HappyHorse and Grok Imagine video generation through a shared async submit/poll task API, alongside image models and LLMs.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-31
+- name: ImageAT
+  url: https://imageat.com
+  docs_url: https://github.com/incendies/imageat-mcp
+  description: One credit balance and API for text-to-video and image-to-video models (Veo 3.1, Kling 3, Seedance 2.5, Sora 2, Wan 3 and more) plus image generation, voiceovers and narrated explainer assembly, exposed to AI agents through a hosted MCP server and npm package.
+  category: text-to-video-apis
+  github: incendies/imageat-mcp
+  sdks:
+    - {language: Node, url: https://www.npmjs.com/package/@imageat/mcp}
+  license: MIT
+  tags: [mcp, ai-agents, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-03
+- name: SeedanceCheap
+  url: https://seedancecheap.com
+  docs_url: https://seedancecheap.com/api
+  description: REST API for asynchronous video jobs with live model availability, account-scoped request IDs, recovery by request ID, status polling and private result downloads.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-05
+- name: Katechon Arc
+  url: https://arc.katechon.technology
+  docs_url: https://arc.katechon.technology/developers/mcp
+  description: AI short-drama and video-ad studio with a remote MCP server (Streamable HTTP, personal API key, 38 tools) that lets agents create projects from an idea, script or novel and drive characters, storyboards, video generation and voiceover.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-10-18
+
+- name: Cuddler API
+  url: https://platform.cuddler.ai
+  docs_url: https://platform.cuddler.ai/docs
+  description: Developer API for video generation across multiple models, supporting text-to-video, image-to-video, reference inputs, editing and native audio according to the selected model.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video, open-api]
+  b2_integration: ""
+  last_verified: 2026-11-13
+
+- name: Modelflare
+  url: https://modelflare.dev/
+  docs_url: https://docs.modelflare.dev/models/video/
+  description: API gateway for async text-to-video and image-to-video via POST /v1/videos, with family-specific request contracts for Seedance, Wan, Kling, MiniMax and HappyHorse.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-23
 
 # ---------------- Real-Time and Interactive Video ----------------
 
@@ -338,7 +442,7 @@
   description: AI avatar video generation and real-time streaming avatars via WebRTC. Template-based workflows.
   category: avatar-and-talking-head-apis
   sdks:
-    - {language: JS/TS, url: https://github.com/HeyGen-Official/StreamingAvatarSDK}
+    - {language: TypeScript, url: https://github.com/HeyGen-Official/StreamingAvatarSDK}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -438,6 +542,18 @@
     - {language: JavaScript, url: https://docs.fal.ai}
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: TalkPix
+  url: https://www.talkpix.ai/developers
+  docs_url: https://www.talkpix.ai/developers
+  description: Talking-photo API. Send one portrait plus a script (built-in TTS voices) or your own audio and get a lip-synced MP4 with head motion; async jobs with polling. Also generates product video ads. Remote MCP server for Claude/ChatGPT.
+  category: avatar-and-talking-head-apis
+  github: TalkPix-AI/talkpix-api-examples
+  sdks:
+    - {language: Python, url: https://pypi.org/project/talkpix/}
+    - {language: Node, url: https://www.npmjs.com/package/talkpix}
+  b2_integration: ""
+  last_verified: 2026-11-02
 
 # ---------------- Video Enhancement and Understanding ----------------
 
@@ -806,7 +922,7 @@
   category: sdks-and-developer-tooling
   github: replicate/replicate-python
   sdks:
-    - {language: Python (pip install replicate)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -817,8 +933,8 @@
   category: sdks-and-developer-tooling
   github: fal-ai/fal-js
   sdks:
-    - {language: Python (pip install fal-client)}
-    - {language: Node (npm install @fal-ai/client)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -827,10 +943,25 @@
   description: Official Python and Node.js SDKs with type annotations, async support, and built-in polling.
   category: sdks-and-developer-tooling
   sdks:
-    - {language: Python (pip install runwayml)}
-    - {language: Node (npm install @runwayml/sdk)}
+    - {language: Python}
+    - {language: Node}
   b2_integration: ""
   last_verified: 2026-03-01
+
+- name: RunAPI
+  url: https://runapi.ai
+  docs_url: https://runapi.ai/models/kling
+  description: Unified API and client SDKs for video generation models including Kling, Seedance and Veo, with text-to-video, image-to-video, extension and upscale jobs.
+  category: text-to-video-apis
+  license: Apache-2.0
+  sdks:
+    - {language: JavaScript}
+    - {language: Python}
+    - {language: Ruby}
+    - {language: Go}
+    - {language: Java}
+  b2_integration: ""
+  last_verified: 2026-11-19
 
 - name: Luma AI SDK
   url: https://github.com/lumalabs/lumaai-python
@@ -839,7 +970,7 @@
   category: sdks-and-developer-tooling
   github: lumalabs/lumaai-python
   sdks:
-    - {language: Python (pip install lumaai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -849,7 +980,7 @@
   category: sdks-and-developer-tooling
   github: HeyGen-Official/StreamingAvatarSDK
   sdks:
-    - {language: TypeScript (npm install @heygen/streaming-avatar)}
+    - {language: TypeScript}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -862,6 +993,19 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: OrkasVideoStudio
+  url: https://github.com/Orkas-AI/Orkas-VideoStudio
+  description: Local-first TypeScript CLI and MCP toolkit that lets coding agents compose, edit, generate, and assemble videos from editable plan.json timelines.
+  category: sdks-and-developer-tooling
+  github: Orkas-AI/Orkas-VideoStudio
+  license: MIT
+  tags:
+    - video-processing
+    - mcp
+    - cli
+  b2_integration: ""
+  last_verified: 2026-07-29
+
 - name: HuggingFace Diffusers
   url: https://github.com/huggingface/diffusers
   docs_url: https://huggingface.co/docs/diffusers
@@ -869,7 +1013,7 @@
   category: sdks-and-developer-tooling
   github: huggingface/diffusers
   sdks:
-    - {language: Python (pip install diffusers)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-03-01
 
@@ -885,6 +1029,18 @@
     - {language: Ruby, url: https://github.com/shotstack/shotstack-sdk-ruby}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: Vidmoat
+  url: https://www.vidmoat.com
+  docs_url: https://developer.vidmoat.com/developer/docs/api
+  description: Hosted video editing API on the same engine as the Vidmoat web editor. REST endpoints (OpenAPI 3.1) and a remote MCP server import footage, edit a multi-track timeline, and render MP4s.
+  category: sdks-and-developer-tooling
+  tags:
+    - video-editing
+    - rest-api
+    - mcp
+  b2_integration: ""
+  last_verified: 2026-11-13
 
 - name: FastVideo
   url: https://github.com/hao-ai-lab/FastVideo
@@ -959,6 +1115,14 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Rendobar
+  url: https://rendobar.com
+  docs_url: https://rendobar.com/docs
+  description: Serverless media processing API for developers and AI agents. One endpoint covering FFmpeg commands, animated and burned-in captions, watermarking, transcoding, and metadata extraction. MCP-native, with a Node SDK and CLI.
+  category: sdks-and-developer-tooling
+  b2_integration: ""
+  last_verified: 2026-06-18
+
 - name: LTX Desktop
   url: https://github.com/Lightricks/LTX-Desktop
   docs_url: https://docs.ltx.video/open-source-model/getting-started/quick-start
@@ -968,6 +1132,25 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Phosphene
+  url: https://phosphene.video/
+  docs_url: https://phosphene.video/docs/
+  description: Free, open-source Mac app that runs LTX-2.5 and optional MiniMax H3 locally on Apple Silicon through MLX, for text-to-video and image-to-video with sound, lip-sync and character LoRA training, with a local HTTP/MCP interface for agents.
+  category: templates-and-example-projects
+  github: mrbizarro/phosphene
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-09
+- name: Avatar Video Workbench
+  url: https://github.com/IaMarric/avatar-video-workbench
+  docs_url: https://github.com/IaMarric/avatar-video-workbench/tree/main/docs
+  description: Open-source CLI/control plane for reproducible avatar LoRA and image-to-video experiments, with Vertex job staging, LTX run metadata, sanitized reports, and publication safety scans.
+  category: sdks-and-developer-tooling
+  github: IaMarric/avatar-video-workbench
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-06-15
 
 # ---------------- Infrastructure and Deployment ----------------
 
@@ -1122,6 +1305,19 @@
   b2_integration: ""
   last_verified: 2026-03-01
 
+- name: CloudGPU
+  url: https://cloudgpu.app
+  docs_url: https://cloudgpu.app/docs
+  description: GPU rental marketplace with SSH, Jupyter and ComfyUI access, a REST API and an MCP server for creating instances and jobs.
+  category: infrastructure-and-deployment
+  github: cloudgpu-app/cloudgpu-mcp
+  sdks:
+    - {language: JavaScript, url: https://www.npmjs.com/package/cloudgpu-mcp}
+  license: MIT
+  tags: [gpu, mcp]
+  b2_integration: ""
+  last_verified: 2026-11-12
+
 # ---------------- Evaluation and Observability ----------------
 
 - name: VBench / VBench-2.0
@@ -1160,6 +1356,25 @@
   category: evaluation-and-observability
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: AIVideoRunbook
+  url: https://github.com/madebysaira/AIVideoRunbook
+  docs_url: https://github.com/madebysaira/AIVideoRunbook
+  description: Offline-first CLI that chains pre/post-render quality gates for AI video. Estimates real cost (sticker x retries), enforces duration/resolution/fps floors, and logs every generation to a local SQLite catalog. Exit codes for automation. MIT.
+  category: evaluation-and-observability
+  github: madebysaira/AIVideoRunbook
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-09-16
+- name: VidFare
+  url: https://vidfare.com/
+  docs_url: https://vidfare.com/data/prices.json
+  description: AI video generation cost-per-second tracker across vendor APIs and credit plans, with each price linked to its source. Price catalog is published as JSON and via a read-only MCP server.
+  category: evaluation-and-observability
+  github: SheepinBoots/clipcost
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-04
 
 # ---------------- Templates and Example Projects ----------------
 
@@ -1229,3 +1444,53 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: PowerTokens Video Studio
+  url: https://github.com/PowerTokens/video-studio
+  docs_url: https://powertokens.github.io/video-studio-web/
+  description: MIT desktop (Windows, Apple Silicon Mac beta) and web client for chat, AI shot planning, and batch or compare text-to-video across Wan, Seedance, Kling and more via one PowerTokens API key. Shot lists, concurrency caps, resume-safe Task IDs.
+  category: templates-and-example-projects
+  github: PowerTokens/video-studio
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-11-19
+
+- name: KreatorFlow
+  url: https://kreatorflow.ai/seedance-api
+  docs_url: https://developers.kreatorflow.ai
+  description: Seedance 2.0 (plus Fast and Mini) and Seedream through one REST API, with signed webhooks, idempotency keys and prepaid tokens.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-09
+- name: YumCut
+  url: https://github.com/IgorShadurin/app.yumcut.com
+  docs_url: https://app.yumcut.com/api/user/v1/docs
+  description: Source-available, self-hosted short-video workflow that generates scripts, voiceovers, visuals, captions, and finished 9:16 videos. Includes a bearer-key API for project automation and media downloads.
+  category: templates-and-example-projects
+  github: IgorShadurin/app.yumcut.com
+  license: PolyForm-Noncommercial-1.0.0
+  tags:
+    - short-form-video
+    - self-hosted
+    - automation-api
+  b2_integration: ""
+  last_verified: 2026-07-09
+- name: BrewReel
+  url: https://github.com/Finderchangchang/brewreel
+  description: Open-source agent skill that turns a product brief into a 1080x1920 vertical promo video; a low-cost LLM such as DeepSeek picks shots and writes copy, and Remotion renders the result.
+  category: templates-and-example-projects
+  github: Finderchangchang/brewreel
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-09-27
+
+- name: HoneyVid
+  url: https://honeyvid.ai
+  docs_url: https://honeyvid.ai/mcp
+  description: MIT-licensed CLI (npx honeyvid, --json output) and hosted OAuth MCP server for coding agents to generate videos and images from template workflows or with Kling, Veo and Seedance.
+  category: sdks-and-developer-tooling
+  github: HoneyVid/cli
+  license: MIT
+  tags: [cli, mcp, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-11
