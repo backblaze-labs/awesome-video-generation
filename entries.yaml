@@ -1486,3 +1486,16 @@
   tags: [cli, mcp, image-to-video]
   b2_integration: ""
   last_verified: 2026-11-11
+
+- name: Klakix
+  url: https://klakix.com/mcp
+  docs_url: https://github.com/klakix-ai/klakix-mcp
+  description: Hosted OAuth 2.1 MCP server, plus an npx stdio bridge and open-source server and OAuth packages, for agents to generate videos, images, voiceovers and music with Seedance, Kling, Veo and Wan.
+  category: sdks-and-developer-tooling
+  github: klakix-ai/klakix-mcp
+  license: MIT
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@klakix/mcp-server}
+  tags: [mcp, ai-agents, text-to-video, image-to-video]
+  b2_integration: ""
+  last_verified: 2026-11-25
