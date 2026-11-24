@@ -1310,6 +1310,15 @@
   b2_integration: ""
   last_verified: 2026-11-12
 
+- name: Apidly Cloud
+  url: https://apidly.com
+  docs_url: https://apidly.com/docs
+  description: Managed GPU servers with a ready-made ComfyUI template, billed by the second, plus a REST API and SDKs for creating servers and serverless endpoints.
+  category: infrastructure-and-deployment
+  tags: [gpu]
+  b2_integration: ""
+  last_verified: 2026-11-23
+
 # ---------------- Evaluation and Observability ----------------
 
 - name: VBench / VBench-2.0
