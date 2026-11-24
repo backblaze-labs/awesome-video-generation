@@ -287,6 +287,17 @@
   b2_integration: ""
   last_verified: 2026-11-13
 
+- name: Mynth
+  url: https://mynth.io
+  docs_url: https://mynth.io/docs
+  description: REST API for text-to-video and image-to-video across a catalog of hosted video models, with image generation on the same API and a TypeScript SDK and CLI.
+  category: text-to-video-apis
+  github: mynthio/oss
+  sdks:
+    - {language: TypeScript, url: https://www.npmjs.com/package/@mynthio/sdk}
+  b2_integration: ""
+  last_verified: 2026-11-24
+
 # ---------------- Real-Time and Interactive Video ----------------
 
 - name: Decart (Lucy 2)
