@@ -52,6 +52,15 @@
   b2_integration: ""
   last_verified: 2026-11-14
 
+- name: anex.sh
+  url: https://anex.sh
+  docs_url: https://anex.sh/docs/video
+  description: Hosted MiniMax H3 video generation with audio from text, first/last frames or reference media, plus video editing, a faster distilled variant and upscaling to 2K/4K, through MiniMax-compatible and fal-compatible async APIs.
+  category: text-to-video-apis
+  github: Mitoncz/comfyui-anex
+  b2_integration: ""
+  last_verified: 2026-11-25
+
 - name: Runway (Gen-4)
   url: https://runwayml.com/api
   docs_url: https://docs.dev.runwayml.com
