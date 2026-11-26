@@ -1454,6 +1454,15 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-11-09
+
+- name: Wanyra API
+  url: https://api.star1age.cn/en
+  docs_url: https://api.star1age.cn/en/docs
+  description: OpenAI-compatible multimodal AI gateway unifying 23 live GA video generation models (MiniMax H3, Seedance 2.0/2.5, Wan 3.0/2.7, Kling 3.0 Omni, Vidu Q3/Q2 Pro, Hailuo H3, HappyHorse 1.1) alongside text, image, and audio endpoints behind one pay-as-you-go key with a public real-time pricing catalog API.
+  category: text-to-video-apis
+  tags: [aggregator, image-to-video, openai-compatible]
+  b2_integration: ""
+  last_verified: 2026-11-26
 - name: YumCut
   url: https://github.com/IgorShadurin/app.yumcut.com
   docs_url: https://app.yumcut.com/api/user/v1/docs
