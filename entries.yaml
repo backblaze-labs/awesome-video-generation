@@ -1486,3 +1486,14 @@
   tags: [cli, mcp, image-to-video]
   b2_integration: ""
   last_verified: 2026-11-11
+
+- name: explainroo
+  url: https://github.com/vincentsch/explainroo
+  docs_url: https://www.explainroo.com/docs/
+  description: Open-source CLI (npx explainroo) that lets a coding agent like Claude Code or Codex make narrated explainer videos and product demos. It renders locally with a Kokoro voice, Whisper word timing and a canvas renderer, and can record a real app for demos.
+  category: sdks-and-developer-tooling
+  github: vincentsch/explainroo
+  license: MIT
+  tags: [cli, text-to-speech, explainer-video]
+  b2_integration: ""
+  last_verified: 2026-11-26
