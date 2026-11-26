@@ -1147,7 +1147,7 @@
 - name: CutVoke
   url: https://github.com/frankShan001/CutVoke
   docs_url: https://frankshan001.github.io/CutVoke/
-  description: Open-source, local-first desktop video editor (Windows, macOS, Linux) with a built-in MCP server: Claude Code, Codex, Cursor or any MCP client can cut, caption and add effects on a non-destructive multi-track timeline that a person then finishes by hand. Renders with FFmpeg.
+  description: "Open-source, local-first desktop video editor (Windows, macOS, Linux) with a built-in MCP server: Claude Code, Codex, Cursor or any MCP client can cut, caption and add effects on a non-destructive multi-track timeline that a person then finishes by hand. Renders with FFmpeg."
   category: sdks-and-developer-tooling
   github: frankShan001/CutVoke
   license: MIT
