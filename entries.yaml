@@ -244,6 +244,13 @@
   category: text-to-video-apis
   b2_integration: ""
   last_verified: 2026-10-28
+- name: Cadabra AI
+  url: https://www.livinginmovie.com/en
+  docs_url: https://www.livinginmovie.com/en/guides/cadabra-mcp
+  description: Hosted MCP server (streamable HTTP, OAuth) that lets Claude, ChatGPT and other MCP clients generate and edit video, images, voice and music with Kling, Seedance 2.5, MAGI-2, Nano Banana 2.1, Suno and ElevenLabs on one credit balance, and render edited MP4s.
+  category: text-to-video-apis
+  b2_integration: ""
+  last_verified: 2026-11-27
 - name: HopBase
   url: https://hop-base.com
   docs_url: https://hop-base.com/en/docs/media/video
